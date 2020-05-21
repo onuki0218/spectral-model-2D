@@ -1,0 +1,14 @@
+&setting
+NK=                        256
+NL=                        256
+NK_truncate=                170
+N_process=                   5
+N_output_file=               0
+length_domain_X=           0.31415927E+01
+length_domain_Y=           0.31415927E+01
+time_end=                  0.10000000E+01
+time_write=                0.10000000E-01
+interval_write_budget=       1
+interval_write_variable=    10
+/
+ 
