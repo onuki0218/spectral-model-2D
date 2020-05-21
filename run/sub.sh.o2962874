@@ -19668,3 +19668,3500 @@ Output directory: ../data/data2962874/
    CPU time:   2618.81666600000     
    Total energy:  6.713989010473198E-003
    Total enstrophy:  0.999390710676303     
+ STEP:        2796
+   Calculation time:  0.865373009790902     
+     Until   1.00000000000000     
+   Real time:         656
+   CPU time:   2619.75381600000     
+   Total energy:  6.713989009646561E-003
+   Total enstrophy:  0.999390520891382     
+ STEP:        2797
+   Calculation time:  0.865655209030689     
+     Until   1.00000000000000     
+   Real time:         656
+   CPU time:   2620.68598000000     
+   Total energy:  6.713989008822445E-003
+   Total enstrophy:  0.999390331696218     
+ STEP:        2798
+   Calculation time:  0.865937209480239     
+     Until   1.00000000000000     
+   Real time:         656
+   CPU time:   2621.61692600000     
+   Total energy:  6.713989008000518E-003
+   Total enstrophy:  0.999390143001745     
+ STEP:        2799
+   Calculation time:  0.866219044934527     
+     Until   1.00000000000000     
+   Real time:         657
+   CPU time:   2622.54872900000     
+   Total energy:  6.713989007180351E-003
+   Total enstrophy:  0.999389954716827     
+ STEP:        2800
+   Calculation time:  0.866500749677032     
+     Until   1.00000000000000     
+   Real time:         657
+   CPU time:   2623.47956200000     
+   Total energy:  6.713989006361579E-003
+   Total enstrophy:  0.999389766749462     
+ STEP:        2801
+   Calculation time:  0.866782358019093     
+     Until   1.00000000000000     
+   Real time:         657
+   CPU time:   2624.41016200000     
+   Total energy:  6.713989005543738E-003
+   Total enstrophy:  0.999389579007905     
+ STEP:        2802
+   Calculation time:  0.867063903866659     
+     Until   1.00000000000000     
+   Real time:         657
+   CPU time:   2625.34039500000     
+   Total energy:  6.713989004726528E-003
+   Total enstrophy:  0.999389391401729     
+ STEP:        2803
+   Calculation time:  0.867345420320415     
+     Until   1.00000000000000     
+   Real time:         658
+   CPU time:   2626.27028900000     
+   Total energy:  6.713989003909489E-003
+   Total enstrophy:  0.999389203842787     
+ STEP:        2804
+   Calculation time:  0.867626939314539     
+     Until   1.00000000000000     
+   Real time:         658
+   CPU time:   2627.19914500000     
+   Total energy:  6.713989003092263E-003
+   Total enstrophy:  0.999389016246068     
+ STEP:        2805
+   Calculation time:  0.867908491298566     
+     Until   1.00000000000000     
+   Real time:         658
+   CPU time:   2628.12973400000     
+   Total energy:  6.713989002274530E-003
+   Total enstrophy:  0.999388828530469     
+ STEP:        2806
+   Calculation time:  0.868190104966099     
+     Until   1.00000000000000     
+   Real time:         658
+   CPU time:   2629.06161900000     
+   Total energy:  6.713989001455940E-003
+   Total enstrophy:  0.999388640619435     
+ STEP:        2807
+   Calculation time:  0.868471807033310     
+     Until   1.00000000000000     
+   Real time:         658
+   CPU time:   2629.99372400000     
+   Total energy:  6.713989000636160E-003
+   Total enstrophy:  0.999388452441500     
+ STEP:        2808
+   Calculation time:  0.868753620068562     
+     Until   1.00000000000000     
+   Real time:         659
+   CPU time:   2630.92314800000     
+   Total energy:  6.713988999814986E-003
+   Total enstrophy:  0.999388263936028     
+ STEP:        2809
+   Calculation time:  0.869035190644394     
+     Until   1.00000000000000     
+   Real time:         659
+   CPU time:   2631.85706400000     
+   Total energy:  6.713988998996480E-003
+   Total enstrophy:  0.999388076045978     
+ STEP:        2810
+   Calculation time:  0.869316550859881     
+     Until   1.00000000000000     
+   Real time:         659
+   CPU time:   2632.78712400000     
+   Total energy:  6.713988998180225E-003
+   Total enstrophy:  0.999387888684533     
+ STEP:        2811
+   Calculation time:  0.869597733796757     
+     Until   1.00000000000000     
+   Real time:         659
+   CPU time:   2633.71874700000     
+   Total energy:  6.713988997365911E-003
+   Total enstrophy:  0.999387701762785     
+ STEP:        2812
+   Calculation time:  0.869878773050197     
+     Until   1.00000000000000     
+   Real time:         660
+   CPU time:   2634.64971600000     
+   Total energy:  6.713988996553119E-003
+   Total enstrophy:  0.999387515190917     
+ *** Output budgets ***
+ STEP:        2813
+   Calculation time:  0.869999999999999     
+     Until   1.00000000000000     
+   Real time:         660
+   CPU time:   2635.64720200000     
+   Total energy:  6.713988996524921E-003
+   Total enstrophy:  0.999387508712366     
+ STEP:        2814
+   Calculation time:  0.870280892069798     
+     Until   1.00000000000000     
+   Real time:         660
+   CPU time:   2636.57996100000     
+   Total energy:  6.713988995713620E-003
+   Total enstrophy:  0.999387322484672     
+ STEP:        2815
+   Calculation time:  0.870561721581246     
+     Until   1.00000000000000     
+   Real time:         660
+   CPU time:   2637.51067600000     
+   Total energy:  6.713988994902912E-003
+   Total enstrophy:  0.999387136391253     
+ STEP:        2816
+   Calculation time:  0.870842520660384     
+     Until   1.00000000000000     
+   Real time:         661
+   CPU time:   2638.44067300000     
+   Total energy:  6.713988994092398E-003
+   Total enstrophy:  0.999386950347003     
+ STEP:        2817
+   Calculation time:  0.871123320198623     
+     Until   1.00000000000000     
+   Real time:         661
+   CPU time:   2639.36949100000     
+   Total energy:  6.713988993281755E-003
+   Total enstrophy:  0.999386764270115     
+ STEP:        2818
+   Calculation time:  0.871404149563238     
+     Until   1.00000000000000     
+   Real time:         661
+   CPU time:   2640.29818300000     
+   Total energy:  6.713988992470627E-003
+   Total enstrophy:  0.999386578082771     
+ STEP:        2819
+   Calculation time:  0.871685036354583     
+     Until   1.00000000000000     
+   Real time:         661
+   CPU time:   2641.22785900000     
+   Total energy:  6.713988991658675E-003
+   Total enstrophy:  0.999386391711709     
+ STEP:        2820
+   Calculation time:  0.871966006212351     
+     Until   1.00000000000000     
+   Real time:         661
+   CPU time:   2642.15747600000     
+   Total energy:  6.713988990845677E-003
+   Total enstrophy:  0.999386205088697     
+ STEP:        2821
+   Calculation time:  0.872247082672364     
+     Until   1.00000000000000     
+   Real time:         662
+   CPU time:   2643.08644400000     
+   Total energy:  6.713988990031252E-003
+   Total enstrophy:  0.999386018150866     
+ STEP:        2822
+   Calculation time:  0.872527993363480     
+     Until   1.00000000000000     
+   Real time:         662
+   CPU time:   2644.01673300000     
+   Total energy:  6.713988989218621E-003
+   Total enstrophy:  0.999385831620922     
+ STEP:        2823
+   Calculation time:  0.872808700157239     
+     Until   1.00000000000000     
+   Real time:         662
+   CPU time:   2644.94946700000     
+   Total energy:  6.713988988408220E-003
+   Total enstrophy:  0.999385645599069     
+ STEP:        2824
+   Calculation time:  0.873089236200124     
+     Until   1.00000000000000     
+   Real time:         662
+   CPU time:   2645.87853000000     
+   Total energy:  6.713988987599628E-003
+   Total enstrophy:  0.999385459996704     
+ STEP:        2825
+   Calculation time:  0.873369634914889     
+     Until   1.00000000000000     
+   Real time:         663
+   CPU time:   2646.80891800000     
+   Total energy:  6.713988986792494E-003
+   Total enstrophy:  0.999385274724924     
+ STEP:        2826
+   Calculation time:  0.873649929566545     
+     Until   1.00000000000000     
+   Real time:         663
+   CPU time:   2647.73838400000     
+   Total energy:  6.713988985986407E-003
+   Total enstrophy:  0.999385089695592     
+ STEP:        2827
+   Calculation time:  0.873930152858505     
+     Until   1.00000000000000     
+   Real time:         663
+   CPU time:   2648.66800400000     
+   Total energy:  6.713988985181001E-003
+   Total enstrophy:  0.999384904822297     
+ STEP:        2828
+   Calculation time:  0.874210336564196     
+     Until   1.00000000000000     
+   Real time:         663
+   CPU time:   2649.59927800000     
+   Total energy:  6.713988984375919E-003
+   Total enstrophy:  0.999384720021241     
+ STEP:        2829
+   Calculation time:  0.874490511198752     
+     Until   1.00000000000000     
+   Real time:         664
+   CPU time:   2650.53059600000     
+   Total energy:  6.713988983570812E-003
+   Total enstrophy:  0.999384535212004     
+ STEP:        2830
+   Calculation time:  0.874770705734569     
+     Until   1.00000000000000     
+   Real time:         664
+   CPU time:   2651.46085200000     
+   Total energy:  6.713988982765322E-003
+   Total enstrophy:  0.999384350318218     
+ STEP:        2831
+   Calculation time:  0.875050947363807     
+     Until   1.00000000000000     
+   Real time:         664
+   CPU time:   2652.39083000000     
+   Total energy:  6.713988981959179E-003
+   Total enstrophy:  0.999384165268139     
+ STEP:        2832
+   Calculation time:  0.875331261310051     
+     Until   1.00000000000000     
+   Real time:         664
+   CPU time:   2653.32139300000     
+   Total energy:  6.713988981152063E-003
+   Total enstrophy:  0.999383979995074     
+ STEP:        2833
+   Calculation time:  0.875611670690568     
+     Until   1.00000000000000     
+   Real time:         665
+   CPU time:   2654.25089500000     
+   Total energy:  6.713988980343671E-003
+   Total enstrophy:  0.999383794437715     
+ STEP:        2834
+   Calculation time:  0.875892104827450     
+     Until   1.00000000000000     
+   Real time:         665
+   CPU time:   2655.18036400000     
+   Total energy:  6.713988979534909E-003
+   Total enstrophy:  0.999383608782620     
+ STEP:        2835
+   Calculation time:  0.876172325678551     
+     Until   1.00000000000000     
+   Real time:         665
+   CPU time:   2656.11067200000     
+   Total energy:  6.713988978728453E-003
+   Total enstrophy:  0.999383423658498     
+ STEP:        2836
+   Calculation time:  0.876452366688493     
+     Until   1.00000000000000     
+   Real time:         665
+   CPU time:   2657.04221200000     
+   Total energy:  6.713988977923925E-003
+   Total enstrophy:  0.999383238976248     
+ STEP:        2837
+   Calculation time:  0.876732261630200     
+     Until   1.00000000000000     
+   Real time:         665
+   CPU time:   2657.97182300000     
+   Total energy:  6.713988977120929E-003
+   Total enstrophy:  0.999383054646382     
+ STEP:        2838
+   Calculation time:  0.877012044163100     
+     Until   1.00000000000000     
+   Real time:         666
+   CPU time:   2658.90164600000     
+   Total energy:  6.713988976319104E-003
+   Total enstrophy:  0.999382870580081     
+ STEP:        2839
+   Calculation time:  0.877291747420040     
+     Until   1.00000000000000     
+   Real time:         666
+   CPU time:   2659.82986800000     
+   Total energy:  6.713988975518066E-003
+   Total enstrophy:  0.999382686690189     
+ STEP:        2840
+   Calculation time:  0.877571403628298     
+     Until   1.00000000000000     
+   Real time:         666
+   CPU time:   2660.76231000000     
+   Total energy:  6.713988974717394E-003
+   Total enstrophy:  0.999382502892108     
+ STEP:        2841
+   Calculation time:  0.877851043769371     
+     Until   1.00000000000000     
+   Real time:         666
+   CPU time:   2661.69029200000     
+   Total energy:  6.713988973916783E-003
+   Total enstrophy:  0.999382319104600     
+ STEP:        2842
+   Calculation time:  0.878130697281471     
+     Until   1.00000000000000     
+   Real time:         667
+   CPU time:   2662.61828500000     
+   Total energy:  6.713988973115897E-003
+   Total enstrophy:  0.999382135250479     
+ STEP:        2843
+   Calculation time:  0.878410391807972     
+     Until   1.00000000000000     
+   Real time:         667
+   CPU time:   2663.55076400000     
+   Total energy:  6.713988972314421E-003
+   Total enstrophy:  0.999381951257212     
+ STEP:        2844
+   Calculation time:  0.878690152994239     
+     Until   1.00000000000000     
+   Real time:         667
+   CPU time:   2664.48000500000     
+   Total energy:  6.713988971512035E-003
+   Total enstrophy:  0.999381767057384     
+ STEP:        2845
+   Calculation time:  0.878970004334547     
+     Until   1.00000000000000     
+   Real time:         667
+   CPU time:   2665.40794500000     
+   Total energy:  6.713988970708467E-003
+   Total enstrophy:  0.999381582589067     
+ STEP:        2846
+   Calculation time:  0.879249967069891     
+     Until   1.00000000000000     
+   Real time:         668
+   CPU time:   2666.33476600000     
+   Total energy:  6.713988969903519E-003
+   Total enstrophy:  0.999381397796070     
+ STEP:        2847
+   Calculation time:  0.879529762601169     
+     Until   1.00000000000000     
+   Real time:         668
+   CPU time:   2667.26223900000     
+   Total energy:  6.713988969100363E-003
+   Total enstrophy:  0.999381213412233     
+ STEP:        2848
+   Calculation time:  0.879809363301075     
+     Until   1.00000000000000     
+   Real time:         668
+   CPU time:   2668.19084800000     
+   Total energy:  6.713988968299324E-003
+   Total enstrophy:  0.999381029509606     
+ *** Output budgets ***
+ STEP:        2849
+   Calculation time:  0.879999999999999     
+     Until   1.00000000000000     
+   Real time:         668
+   CPU time:   2669.16008000000     
+   Total energy:  6.713988968125909E-003
+   Total enstrophy:  0.999380989686040     
+ STEP:        2850
+   Calculation time:  0.880279349219908     
+     Until   1.00000000000000     
+   Real time:         668
+   CPU time:   2670.08760100000     
+   Total energy:  6.713988967327509E-003
+   Total enstrophy:  0.999380806390323     
+ STEP:        2851
+   Calculation time:  0.880558593981462     
+     Until   1.00000000000000     
+   Real time:         669
+   CPU time:   2671.01624700000     
+   Total energy:  6.713988966530184E-003
+   Total enstrophy:  0.999380623337692     
+ STEP:        2852
+   Calculation time:  0.880837767062153     
+     Until   1.00000000000000     
+   Real time:         669
+   CPU time:   2671.94401600000     
+   Total energy:  6.713988965733519E-003
+   Total enstrophy:  0.999380440442327     
+ STEP:        2853
+   Calculation time:  0.881116900161722     
+     Until   1.00000000000000     
+   Real time:         669
+   CPU time:   2672.87224800000     
+   Total energy:  6.713988964937198E-003
+   Total enstrophy:  0.999380257621366     
+ STEP:        2854
+   Calculation time:  0.881396023585965     
+     Until   1.00000000000000     
+   Real time:         669
+   CPU time:   2673.80053500000     
+   Total energy:  6.713988964140877E-003
+   Total enstrophy:  0.999380074795666     
+ STEP:        2855
+   Calculation time:  0.881675165974321     
+     Until   1.00000000000000     
+   Real time:         670
+   CPU time:   2674.72733300000     
+   Total energy:  6.713988963344209E-003
+   Total enstrophy:  0.999379891890424     
+ STEP:        2856
+   Calculation time:  0.881954354073931     
+     Until   1.00000000000000     
+   Real time:         670
+   CPU time:   2675.65457200000     
+   Total energy:  6.713988962546880E-003
+   Total enstrophy:  0.999379708835707     
+ STEP:        2857
+   Calculation time:  0.882233612562091     
+     Until   1.00000000000000     
+   Real time:         670
+   CPU time:   2676.58229600000     
+   Total energy:  6.713988961748645E-003
+   Total enstrophy:  0.999379525566865     
+ STEP:        2858
+   Calculation time:  0.882512963918285     
+     Until   1.00000000000000     
+   Real time:         670
+   CPU time:   2677.51245700000     
+   Total energy:  6.713988960949244E-003
+   Total enstrophy:  0.999379342024838     
+ STEP:        2859
+   Calculation time:  0.882792428346083     
+     Until   1.00000000000000     
+   Real time:         671
+   CPU time:   2678.44240000000     
+   Total energy:  6.713988960148387E-003
+   Total enstrophy:  0.999379158156339     
+ STEP:        2860
+   Calculation time:  0.883071701236243     
+     Until   1.00000000000000     
+   Real time:         671
+   CPU time:   2679.36985500000     
+   Total energy:  6.713988959349610E-003
+   Total enstrophy:  0.999378974761059     
+ STEP:        2861
+   Calculation time:  0.883350787106629     
+     Until   1.00000000000000     
+   Real time:         671
+   CPU time:   2680.29729300000     
+   Total energy:  6.713988958552851E-003
+   Total enstrophy:  0.999378791826438     
+ STEP:        2862
+   Calculation time:  0.883629720882829     
+     Until   1.00000000000000     
+   Real time:         671
+   CPU time:   2681.22533300000     
+   Total energy:  6.713988957757727E-003
+   Total enstrophy:  0.999378609260508     
+ STEP:        2863
+   Calculation time:  0.883908537215198     
+     Until   1.00000000000000     
+   Real time:         671
+   CPU time:   2682.15268200000     
+   Total energy:  6.713988956963799E-003
+   Total enstrophy:  0.999378426972435     
+ STEP:        2864
+   Calculation time:  0.884187270061643     
+     Until   1.00000000000000     
+   Real time:         672
+   CPU time:   2683.08166400000     
+   Total energy:  6.713988956170705E-003
+   Total enstrophy:  0.999378244873466     
+ STEP:        2865
+   Calculation time:  0.884465952305904     
+     Until   1.00000000000000     
+   Real time:         672
+   CPU time:   2684.04155700000     
+   Total energy:  6.713988955378067E-003
+   Total enstrophy:  0.999378062877860     
+ STEP:        2866
+   Calculation time:  0.884744615415725     
+     Until   1.00000000000000     
+   Real time:         672
+   CPU time:   2684.97213400000     
+   Total energy:  6.713988954585517E-003
+   Total enstrophy:  0.999377880903647     
+ STEP:        2867
+   Calculation time:  0.885023289144608     
+     Until   1.00000000000000     
+   Real time:         672
+   CPU time:   2685.89971000000     
+   Total energy:  6.713988953792726E-003
+   Total enstrophy:  0.999377698873347     
+ STEP:        2868
+   Calculation time:  0.885302001280196     
+     Until   1.00000000000000     
+   Real time:         673
+   CPU time:   2686.82742300000     
+   Total energy:  6.713988952999433E-003
+   Total enstrophy:  0.999377516714533     
+ STEP:        2869
+   Calculation time:  0.885580777441598     
+     Until   1.00000000000000     
+   Real time:         673
+   CPU time:   2687.75385600000     
+   Total energy:  6.713988952205253E-003
+   Total enstrophy:  0.999377334360316     
+ STEP:        2870
+   Calculation time:  0.885859640927248     
+     Until   1.00000000000000     
+   Real time:         673
+   CPU time:   2688.67946400000     
+   Total energy:  6.713988951409971E-003
+   Total enstrophy:  0.999377151749696     
+ STEP:        2871
+   Calculation time:  0.886138612614092     
+     Until   1.00000000000000     
+   Real time:         673
+   CPU time:   2689.60914400000     
+   Total energy:  6.713988950613319E-003
+   Total enstrophy:  0.999376968827817     
+ STEP:        2872
+   Calculation time:  0.886417626660312     
+     Until   1.00000000000000     
+   Real time:         674
+   CPU time:   2690.53672700000     
+   Total energy:  6.713988949816071E-003
+   Total enstrophy:  0.999376785766881     
+ STEP:        2873
+   Calculation time:  0.886696422375774     
+     Until   1.00000000000000     
+   Real time:         674
+   CPU time:   2691.47035300000     
+   Total energy:  6.713988949021218E-003
+   Total enstrophy:  0.999376603249306     
+ STEP:        2874
+   Calculation time:  0.886975035357732     
+     Until   1.00000000000000     
+   Real time:         674
+   CPU time:   2692.39731800000     
+   Total energy:  6.713988948228318E-003
+   Total enstrophy:  0.999376421181137     
+ STEP:        2875
+   Calculation time:  0.887253501215097     
+     Until   1.00000000000000     
+   Real time:         674
+   CPU time:   2693.32484200000     
+   Total energy:  6.713988947436978E-003
+   Total enstrophy:  0.999376239468893     
+ STEP:        2876
+   Calculation time:  0.887531855129739     
+     Until   1.00000000000000     
+   Real time:         675
+   CPU time:   2694.25197800000     
+   Total energy:  6.713988946646774E-003
+   Total enstrophy:  0.999376058020589     
+ STEP:        2877
+   Calculation time:  0.887810131449512     
+     Until   1.00000000000000     
+   Real time:         675
+   CPU time:   2695.18067600000     
+   Total energy:  6.713988945857388E-003
+   Total enstrophy:  0.999375876746692     
+ STEP:        2878
+   Calculation time:  0.888088363317546     
+     Until   1.00000000000000     
+   Real time:         675
+   CPU time:   2696.11306200000     
+   Total energy:  6.713988945068363E-003
+   Total enstrophy:  0.999375695560979     
+ STEP:        2879
+   Calculation time:  0.888366582341667     
+     Until   1.00000000000000     
+   Real time:         675
+   CPU time:   2697.04294300000     
+   Total energy:  6.713988944279360E-003
+   Total enstrophy:  0.999375514381298     
+ STEP:        2880
+   Calculation time:  0.888644818307245     
+     Until   1.00000000000000     
+   Real time:         675
+   CPU time:   2697.97004200000     
+   Total energy:  6.713988943490076E-003
+   Total enstrophy:  0.999375333130223     
+ STEP:        2881
+   Calculation time:  0.888923098936072     
+     Until   1.00000000000000     
+   Real time:         676
+   CPU time:   2698.89755200000     
+   Total energy:  6.713988942700165E-003
+   Total enstrophy:  0.999375151735622     
+ STEP:        2882
+   Calculation time:  0.889201449693267     
+     Until   1.00000000000000     
+   Real time:         676
+   CPU time:   2699.82643200000     
+   Total energy:  6.713988941909343E-003
+   Total enstrophy:  0.999374970131099     
+ STEP:        2883
+   Calculation time:  0.889479893643478     
+     Until   1.00000000000000     
+   Real time:         676
+   CPU time:   2700.75269100000     
+   Total energy:  6.713988941117394E-003
+   Total enstrophy:  0.999374788256331     
+ STEP:        2884
+   Calculation time:  0.889758451356963     
+     Until   1.00000000000000     
+   Real time:         676
+   CPU time:   2701.68093800000     
+   Total energy:  6.713988940323987E-003
+   Total enstrophy:  0.999374606057303     
+ *** Output budgets ***
+ STEP:        2885
+   Calculation time:  0.889999999999999     
+     Until   1.00000000000000     
+   Real time:         677
+   CPU time:   2702.64628100000     
+   Total energy:  6.713988939875046E-003
+   Total enstrophy:  0.999374502937444     
+ STEP:        2886
+   Calculation time:  0.890278498511137     
+     Until   1.00000000000000     
+   Real time:         677
+   CPU time:   2703.57550800000     
+   Total energy:  6.713988939082105E-003
+   Total enstrophy:  0.999374320841269     
+ STEP:        2887
+   Calculation time:  0.890556820846596     
+     Until   1.00000000000000     
+   Real time:         677
+   CPU time:   2704.50372800000     
+   Total energy:  6.713988938291078E-003
+   Total enstrophy:  0.999374139177404     
+ STEP:        2888
+   Calculation time:  0.890835002848047     
+     Until   1.00000000000000     
+   Real time:         677
+   CPU time:   2705.43324100000     
+   Total energy:  6.713988937501549E-003
+   Total enstrophy:  0.999373957851873     
+ STEP:        2889
+   Calculation time:  0.891113079766075     
+     Until   1.00000000000000     
+   Real time:         678
+   CPU time:   2706.36046700000     
+   Total energy:  6.713988936713119E-003
+   Total enstrophy:  0.999373776772606     
+ STEP:        2890
+   Calculation time:  0.891391085864677     
+     Until   1.00000000000000     
+   Real time:         678
+   CPU time:   2707.28775300000     
+   Total energy:  6.713988935925348E-003
+   Total enstrophy:  0.999373595850357     
+ STEP:        2891
+   Calculation time:  0.891669054063143     
+     Until   1.00000000000000     
+   Real time:         678
+   CPU time:   2708.21464200000     
+   Total energy:  6.713988935137916E-003
+   Total enstrophy:  0.999373414999534     
+ STEP:        2892
+   Calculation time:  0.891947015618821     
+     Until   1.00000000000000     
+   Real time:         678
+   CPU time:   2709.14300600000     
+   Total energy:  6.713988934350487E-003
+   Total enstrophy:  0.999373234138915     
+ STEP:        2893
+   Calculation time:  0.892224999853634     
+     Until   1.00000000000000     
+   Real time:         678
+   CPU time:   2710.07110600000     
+   Total energy:  6.713988933562636E-003
+   Total enstrophy:  0.999373053192290     
+ STEP:        2894
+   Calculation time:  0.892503033926635     
+     Until   1.00000000000000     
+   Real time:         679
+   CPU time:   2710.99868300000     
+   Total energy:  6.713988932774129E-003
+   Total enstrophy:  0.999372872088966     
+ STEP:        2895
+   Calculation time:  0.892781109424559     
+     Until   1.00000000000000     
+   Real time:         679
+   CPU time:   2711.92803800000     
+   Total energy:  6.713988931985068E-003
+   Total enstrophy:  0.999372690850696     
+ STEP:        2896
+   Calculation time:  0.893059085263877     
+     Until   1.00000000000000     
+   Real time:         679
+   CPU time:   2712.85428800000     
+   Total energy:  6.713988931197035E-003
+   Total enstrophy:  0.999372509844474     
+ STEP:        2897
+   Calculation time:  0.893336996717836     
+     Until   1.00000000000000     
+   Real time:         679
+   CPU time:   2713.78279500000     
+   Total energy:  6.713988930409602E-003
+   Total enstrophy:  0.999372328978420     
+ STEP:        2898
+   Calculation time:  0.893614879030922     
+     Until   1.00000000000000     
+   Real time:         680
+   CPU time:   2714.70975700000     
+   Total energy:  6.713988929622373E-003
+   Total enstrophy:  0.999372148160860     
+ STEP:        2899
+   Calculation time:  0.893892767028692     
+     Until   1.00000000000000     
+   Real time:         680
+   CPU time:   2715.63778600000     
+   Total energy:  6.713988928835044E-003
+   Total enstrophy:  0.999371967301251     
+ STEP:        2900
+   Calculation time:  0.894170694748010     
+     Until   1.00000000000000     
+   Real time:         680
+   CPU time:   2716.56619400000     
+   Total energy:  6.713988928047120E-003
+   Total enstrophy:  0.999371786311046     
+ STEP:        2901
+   Calculation time:  0.894448634233344     
+     Until   1.00000000000000     
+   Real time:         680
+   CPU time:   2717.49508100000     
+   Total energy:  6.713988927258945E-003
+   Total enstrophy:  0.999371605262826     
+ STEP:        2902
+   Calculation time:  0.894726466381903     
+     Until   1.00000000000000     
+   Real time:         681
+   CPU time:   2718.42252200000     
+   Total energy:  6.713988926471887E-003
+   Total enstrophy:  0.999371424466193     
+ STEP:        2903
+   Calculation time:  0.895004226244914     
+     Until   1.00000000000000     
+   Real time:         681
+   CPU time:   2719.34914300000     
+   Total energy:  6.713988925685583E-003
+   Total enstrophy:  0.999371243829850     
+ STEP:        2904
+   Calculation time:  0.895281947444119     
+     Until   1.00000000000000     
+   Real time:         681
+   CPU time:   2720.27695000000     
+   Total energy:  6.713988924899577E-003
+   Total enstrophy:  0.999371063266373     
+ STEP:        2905
+   Calculation time:  0.895559661851899     
+     Until   1.00000000000000     
+   Real time:         681
+   CPU time:   2721.20752400000     
+   Total energy:  6.713988924113550E-003
+   Total enstrophy:  0.999370882692948     
+ STEP:        2906
+   Calculation time:  0.895837300164093     
+     Until   1.00000000000000     
+   Real time:         681
+   CPU time:   2722.13549400000     
+   Total energy:  6.713988923328257E-003
+   Total enstrophy:  0.999370702289399     
+ STEP:        2907
+   Calculation time:  0.896114812943340     
+     Until   1.00000000000000     
+   Real time:         682
+   CPU time:   2723.06291700000     
+   Total energy:  6.713988922544305E-003
+   Total enstrophy:  0.999370522183717     
+ STEP:        2908
+   Calculation time:  0.896392234869474     
+     Until   1.00000000000000     
+   Real time:         682
+   CPU time:   2723.99125600000     
+   Total energy:  6.713988921761266E-003
+   Total enstrophy:  0.999370342285725     
+ STEP:        2909
+   Calculation time:  0.896669600837420     
+     Until   1.00000000000000     
+   Real time:         682
+   CPU time:   2724.91925100000     
+   Total energy:  6.713988920978773E-003
+   Total enstrophy:  0.999370162504911     
+ STEP:        2910
+   Calculation time:  0.896946945561840     
+     Until   1.00000000000000     
+   Real time:         682
+   CPU time:   2725.84710200000     
+   Total energy:  6.713988920196410E-003
+   Total enstrophy:  0.999369982751357     
+ STEP:        2911
+   Calculation time:  0.897224303199137     
+     Until   1.00000000000000     
+   Real time:         683
+   CPU time:   2726.77381900000     
+   Total energy:  6.713988919413770E-003
+   Total enstrophy:  0.999369802936602     
+ STEP:        2912
+   Calculation time:  0.897501706991024     
+     Until   1.00000000000000     
+   Real time:         683
+   CPU time:   2727.70455800000     
+   Total energy:  6.713988918630534E-003
+   Total enstrophy:  0.999369622974490     
+ STEP:        2913
+   Calculation time:  0.897779188933487     
+     Until   1.00000000000000     
+   Real time:         683
+   CPU time:   2728.63243300000     
+   Total energy:  6.713988917846298E-003
+   Total enstrophy:  0.999369442781924     
+ STEP:        2914
+   Calculation time:  0.898056779474613     
+     Until   1.00000000000000     
+   Real time:         683
+   CPU time:   2729.56005800000     
+   Total energy:  6.713988917060717E-003
+   Total enstrophy:  0.999369262279575     
+ STEP:        2915
+   Calculation time:  0.898334477870184     
+     Until   1.00000000000000     
+   Real time:         684
+   CPU time:   2730.48856400000     
+   Total energy:  6.713988916273839E-003
+   Total enstrophy:  0.999369081468921     
+ STEP:        2916
+   Calculation time:  0.898611965394376     
+     Until   1.00000000000000     
+   Real time:         684
+   CPU time:   2731.41518200000     
+   Total energy:  6.713988915489242E-003
+   Total enstrophy:  0.999368901177841     
+ STEP:        2917
+   Calculation time:  0.898889268167186     
+     Until   1.00000000000000     
+   Real time:         684
+   CPU time:   2732.34378400000     
+   Total energy:  6.713988914706634E-003
+   Total enstrophy:  0.999368721337628     
+ STEP:        2918
+   Calculation time:  0.899166419170237     
+     Until   1.00000000000000     
+   Real time:         684
+   CPU time:   2733.27089500000     
+   Total energy:  6.713988913925589E-003
+   Total enstrophy:  0.999368541862201     
+ STEP:        2919
+   Calculation time:  0.899443452194742     
+     Until   1.00000000000000     
+   Real time:         684
+   CPU time:   2734.19876000000     
+   Total energy:  6.713988913145830E-003
+   Total enstrophy:  0.999368362663775     
+ STEP:        2920
+   Calculation time:  0.899720401433574     
+     Until   1.00000000000000     
+   Real time:         685
+   CPU time:   2735.12610000000     
+   Total energy:  6.713988912366900E-003
+   Total enstrophy:  0.999368183653826     
+ STEP:        2921
+   Calculation time:  0.899997301083599     
+     Until   1.00000000000000     
+   Real time:         685
+   CPU time:   2736.05434200000     
+   Total energy:  6.713988911588392E-003
+   Total enstrophy:  0.999368004744025     
+ *** Output budgets ***
+ *** Output variables ***
+ STEP:        2922
+   Calculation time:  0.899999999999999     
+     Until   1.00000000000000     
+   Real time:         685
+   CPU time:   2737.09626200000     
+   Total energy:  6.713988911588411E-003
+   Total enstrophy:  0.999368004744022     
+ STEP:        2923
+   Calculation time:  0.900276883889929     
+     Until   1.00000000000000     
+   Real time:         685
+   CPU time:   2738.02515200000     
+   Total energy:  6.713988910810014E-003
+   Total enstrophy:  0.999367825846790     
+ STEP:        2924
+   Calculation time:  0.900553785403857     
+     Until   1.00000000000000     
+   Real time:         686
+   CPU time:   2738.95515400000     
+   Total energy:  6.713988910031323E-003
+   Total enstrophy:  0.999367646876296     
+ STEP:        2925
+   Calculation time:  0.900830736525711     
+     Until   1.00000000000000     
+   Real time:         686
+   CPU time:   2739.88392600000     
+   Total energy:  6.713988909251945E-003
+   Total enstrophy:  0.999367467749943     
+ STEP:        2926
+   Calculation time:  0.901107767843758     
+     Until   1.00000000000000     
+   Real time:         686
+   CPU time:   2740.81255100000     
+   Total energy:  6.713988908471589E-003
+   Total enstrophy:  0.999367288388576     
+ STEP:        2927
+   Calculation time:  0.901384908269574     
+     Until   1.00000000000000     
+   Real time:         686
+   CPU time:   2741.74001400000     
+   Total energy:  6.713988907689893E-003
+   Total enstrophy:  0.999367108717142     
+ STEP:        2928
+   Calculation time:  0.901661978492513     
+     Until   1.00000000000000     
+   Real time:         687
+   CPU time:   2742.66766200000     
+   Total energy:  6.713988906908878E-003
+   Total enstrophy:  0.999366929199599     
+ STEP:        2929
+   Calculation time:  0.901938830024902     
+     Until   1.00000000000000     
+   Real time:         687
+   CPU time:   2743.59352500000     
+   Total energy:  6.713988906130284E-003
+   Total enstrophy:  0.999366750219540     
+ STEP:        2930
+   Calculation time:  0.902215495549444     
+     Until   1.00000000000000     
+   Real time:         687
+   CPU time:   2744.52199000000     
+   Total energy:  6.713988905353606E-003
+   Total enstrophy:  0.999366571691657     
+ STEP:        2931
+   Calculation time:  0.902492008811314     
+     Until   1.00000000000000     
+   Real time:         687
+   CPU time:   2745.45170600000     
+   Total energy:  6.713988904578591E-003
+   Total enstrophy:  0.999366393528388     
+ STEP:        2932
+   Calculation time:  0.902768404202101     
+     Until   1.00000000000000     
+   Real time:         688
+   CPU time:   2746.38065100000     
+   Total energy:  6.713988903804764E-003
+   Total enstrophy:  0.999366215640898     
+ STEP:        2933
+   Calculation time:  0.903044716351004     
+     Until   1.00000000000000     
+   Real time:         688
+   CPU time:   2747.30768600000     
+   Total energy:  6.713988903031785E-003
+   Total enstrophy:  0.999366037940033     
+ STEP:        2934
+   Calculation time:  0.903320979728433     
+     Until   1.00000000000000     
+   Real time:         688
+   CPU time:   2748.23493400000     
+   Total energy:  6.713988902259257E-003
+   Total enstrophy:  0.999365860337251     
+ STEP:        2935
+   Calculation time:  0.903597228266764     
+     Until   1.00000000000000     
+   Real time:         688
+   CPU time:   2749.16275100000     
+   Total energy:  6.713988901486761E-003
+   Total enstrophy:  0.999365682745486     
+ STEP:        2936
+   Calculation time:  0.903873495002587     
+     Until   1.00000000000000     
+   Real time:         688
+   CPU time:   2750.08941500000     
+   Total energy:  6.713988900713999E-003
+   Total enstrophy:  0.999365505079978     
+ STEP:        2937
+   Calculation time:  0.904149811744430     
+     Until   1.00000000000000     
+   Real time:         689
+   CPU time:   2751.01818300000     
+   Total energy:  6.713988899940544E-003
+   Total enstrophy:  0.999365327259024     
+ STEP:        2938
+   Calculation time:  0.904426208769565     
+     Until   1.00000000000000     
+   Real time:         689
+   CPU time:   2751.94613800000     
+   Total energy:  6.713988899166148E-003
+   Total enstrophy:  0.999365149204691     
+ STEP:        2939
+   Calculation time:  0.904702704634065     
+     Until   1.00000000000000     
+   Real time:         689
+   CPU time:   2752.87520800000     
+   Total energy:  6.713988898390532E-003
+   Total enstrophy:  0.999364970868999     
+ STEP:        2940
+   Calculation time:  0.904979280270225     
+     Until   1.00000000000000     
+   Real time:         689
+   CPU time:   2753.80260500000     
+   Total energy:  6.713988897613910E-003
+   Total enstrophy:  0.999364792300802     
+ STEP:        2941
+   Calculation time:  0.905255951513359     
+     Until   1.00000000000000     
+   Real time:         690
+   CPU time:   2754.73043600000     
+   Total energy:  6.713988896836130E-003
+   Total enstrophy:  0.999364613459031     
+ STEP:        2942
+   Calculation time:  0.905532434032165     
+     Until   1.00000000000000     
+   Real time:         690
+   CPU time:   2755.65690600000     
+   Total energy:  6.713988896060371E-003
+   Total enstrophy:  0.999364435077048     
+ STEP:        2943
+   Calculation time:  0.905808761452922     
+     Until   1.00000000000000     
+   Real time:         690
+   CPU time:   2756.58393800000     
+   Total energy:  6.713988895286250E-003
+   Total enstrophy:  0.999364257067575     
+ STEP:        2944
+   Calculation time:  0.906084967925315     
+     Until   1.00000000000000     
+   Real time:         690
+   CPU time:   2757.51363500000     
+   Total energy:  6.713988894513392E-003
+   Total enstrophy:  0.999364079342390     
+ STEP:        2945
+   Calculation time:  0.906361087715141     
+     Until   1.00000000000000     
+   Real time:         691
+   CPU time:   2758.44224100000     
+   Total energy:  6.713988893741401E-003
+   Total enstrophy:  0.999363901813268     
+ STEP:        2946
+   Calculation time:  0.906637154811063     
+     Until   1.00000000000000     
+   Real time:         691
+   CPU time:   2759.37380000000     
+   Total energy:  6.713988892969902E-003
+   Total enstrophy:  0.999363724392891     
+ STEP:        2947
+   Calculation time:  0.906913202550060     
+     Until   1.00000000000000     
+   Real time:         691
+   CPU time:   2760.30116900000     
+   Total energy:  6.713988892198524E-003
+   Total enstrophy:  0.999363546995729     
+ STEP:        2948
+   Calculation time:  0.907189263265874     
+     Until   1.00000000000000     
+   Real time:         691
+   CPU time:   2761.22878300000     
+   Total energy:  6.713988891426934E-003
+   Total enstrophy:  0.999363369538830     
+ STEP:        2949
+   Calculation time:  0.907465367964360     
+     Until   1.00000000000000     
+   Real time:         691
+   CPU time:   2762.15548400000     
+   Total energy:  6.713988890654757E-003
+   Total enstrophy:  0.999363191942575     
+ STEP:        2950
+   Calculation time:  0.907741546029260     
+     Until   1.00000000000000     
+   Real time:         692
+   CPU time:   2763.08376700000     
+   Total energy:  6.713988889881652E-003
+   Total enstrophy:  0.999363014131359     
+ STEP:        2951
+   Calculation time:  0.908017769490313     
+     Until   1.00000000000000     
+   Real time:         692
+   CPU time:   2764.01174400000     
+   Total energy:  6.713988889107929E-003
+   Total enstrophy:  0.999362836176948     
+ STEP:        2952
+   Calculation time:  0.908294032445153     
+     Until   1.00000000000000     
+   Real time:         692
+   CPU time:   2764.94148500000     
+   Total energy:  6.713988888333704E-003
+   Total enstrophy:  0.999362658094453     
+ STEP:        2953
+   Calculation time:  0.908570365761111     
+     Until   1.00000000000000     
+   Real time:         692
+   CPU time:   2765.86784600000     
+   Total energy:  6.713988887558588E-003
+   Total enstrophy:  0.999362479804278     
+ STEP:        2954
+   Calculation time:  0.908846588031644     
+     Until   1.00000000000000     
+   Real time:         693
+   CPU time:   2766.79541500000     
+   Total energy:  6.713988886784600E-003
+   Total enstrophy:  0.999362301773568     
+ STEP:        2955
+   Calculation time:  0.909122650821683     
+     Until   1.00000000000000     
+   Real time:         693
+   CPU time:   2767.72251300000     
+   Total energy:  6.713988886012326E-003
+   Total enstrophy:  0.999362124126554     
+ STEP:        2956
+   Calculation time:  0.909398588363011     
+     Until   1.00000000000000     
+   Real time:         693
+   CPU time:   2768.64942600000     
+   Total energy:  6.713988885241343E-003
+   Total enstrophy:  0.999361946774806     
+ STEP:        2957
+   Calculation time:  0.909674434883666     
+     Until   1.00000000000000     
+   Real time:         693
+   CPU time:   2769.57811900000     
+   Total energy:  6.713988884471297E-003
+   Total enstrophy:  0.999361769630220     
+ STEP:        2958
+   Calculation time:  0.909950224214368     
+     Until   1.00000000000000     
+   Real time:         694
+   CPU time:   2770.50691600000     
+   Total energy:  6.713988883701814E-003
+   Total enstrophy:  0.999361592605923     
+ *** Output budgets ***
+ STEP:        2959
+   Calculation time:  0.909999999999999     
+     Until   1.00000000000000     
+   Real time:         694
+   CPU time:   2771.47376100000     
+   Total energy:  6.713988883700979E-003
+   Total enstrophy:  0.999361592417431     
+ STEP:        2960
+   Calculation time:  0.910275764284196     
+     Until   1.00000000000000     
+   Real time:         694
+   CPU time:   2772.40143300000     
+   Total energy:  6.713988882931659E-003
+   Total enstrophy:  0.999361415425824     
+ STEP:        2961
+   Calculation time:  0.910551542003568     
+     Until   1.00000000000000     
+   Real time:         694
+   CPU time:   2773.33033600000     
+   Total energy:  6.713988882162072E-003
+   Total enstrophy:  0.999361238373401     
+ STEP:        2962
+   Calculation time:  0.910827363373666     
+     Until   1.00000000000000     
+   Real time:         695
+   CPU time:   2774.25739200000     
+   Total energy:  6.713988881391915E-003
+   Total enstrophy:  0.999361061182613     
+ STEP:        2963
+   Calculation time:  0.911103256839086     
+     Until   1.00000000000000     
+   Real time:         695
+   CPU time:   2775.18366400000     
+   Total energy:  6.713988880620844E-003
+   Total enstrophy:  0.999360883780303     
+ STEP:        2964
+   Calculation time:  0.911379248829210     
+     Until   1.00000000000000     
+   Real time:         695
+   CPU time:   2776.11041900000     
+   Total energy:  6.713988879848617E-003
+   Total enstrophy:  0.999360706098283     
+ STEP:        2965
+   Calculation time:  0.911655271152991     
+     Until   1.00000000000000     
+   Real time:         695
+   CPU time:   2777.03828200000     
+   Total energy:  6.713988879075963E-003
+   Total enstrophy:  0.999360528311601     
+ STEP:        2966
+   Calculation time:  0.911931328649761     
+     Until   1.00000000000000     
+   Real time:         695
+   CPU time:   2777.96531500000     
+   Total energy:  6.713988878302790E-003
+   Total enstrophy:  0.999360350407695     
+ STEP:        2967
+   Calculation time:  0.912207204773733     
+     Until   1.00000000000000     
+   Real time:         696
+   CPU time:   2778.89267200000     
+   Total energy:  6.713988877531560E-003
+   Total enstrophy:  0.999360172943336     
+ STEP:        2968
+   Calculation time:  0.912482927603056     
+     Until   1.00000000000000     
+   Real time:         696
+   CPU time:   2779.82169000000     
+   Total energy:  6.713988876761931E-003
+   Total enstrophy:  0.999359995845694     
+ STEP:        2969
+   Calculation time:  0.912758531333859     
+     Until   1.00000000000000     
+   Real time:         696
+   CPU time:   2780.75029700000     
+   Total energy:  6.713988875993595E-003
+   Total enstrophy:  0.999359819026589     
+ STEP:        2970
+   Calculation time:  0.913034050021881     
+     Until   1.00000000000000     
+   Real time:         696
+   CPU time:   2781.67721900000     
+   Total energy:  6.713988875226080E-003
+   Total enstrophy:  0.999359642398495     
+ STEP:        2971
+   Calculation time:  0.913309517189312     
+     Until   1.00000000000000     
+   Real time:         697
+   CPU time:   2782.60372100000     
+   Total energy:  6.713988874459028E-003
+   Total enstrophy:  0.999359465875453     
+ STEP:        2972
+   Calculation time:  0.913584965453728     
+     Until   1.00000000000000     
+   Real time:         697
+   CPU time:   2783.53111400000     
+   Total energy:  6.713988873692144E-003
+   Total enstrophy:  0.999359289373912     
+ STEP:        2973
+   Calculation time:  0.913860426183398     
+     Until   1.00000000000000     
+   Real time:         697
+   CPU time:   2784.47078000000     
+   Total energy:  6.713988872925005E-003
+   Total enstrophy:  0.999359112813535     
+ STEP:        2974
+   Calculation time:  0.914135929182837     
+     Until   1.00000000000000     
+   Real time:         697
+   CPU time:   2785.40207600000     
+   Total energy:  6.713988872157297E-003
+   Total enstrophy:  0.999358936117913     
+ STEP:        2975
+   Calculation time:  0.914411502412123     
+     Until   1.00000000000000     
+   Real time:         698
+   CPU time:   2786.33047300000     
+   Total energy:  6.713988871388739E-003
+   Total enstrophy:  0.999358759215227     
+ STEP:        2976
+   Calculation time:  0.914687171743053     
+     Until   1.00000000000000     
+   Real time:         698
+   CPU time:   2787.25927800000     
+   Total energy:  6.713988870618994E-003
+   Total enstrophy:  0.999358582038815     
+ STEP:        2977
+   Calculation time:  0.914962960754803     
+     Until   1.00000000000000     
+   Real time:         698
+   CPU time:   2788.18690900000     
+   Total energy:  6.713988869847848E-003
+   Total enstrophy:  0.999358404527671     
+ STEP:        2978
+   Calculation time:  0.915238810494091     
+     Until   1.00000000000000     
+   Real time:         698
+   CPU time:   2789.11534300000     
+   Total energy:  6.713988869075942E-003
+   Total enstrophy:  0.999358226832914     
+ STEP:        2979
+   Calculation time:  0.915514459667829     
+     Until   1.00000000000000     
+   Real time:         698
+   CPU time:   2790.04248000000     
+   Total energy:  6.713988868306152E-003
+   Total enstrophy:  0.999358049626034     
+ STEP:        2980
+   Calculation time:  0.915789942251162     
+     Until   1.00000000000000     
+   Real time:         699
+   CPU time:   2790.97346300000     
+   Total energy:  6.713988867538171E-003
+   Total enstrophy:  0.999357872818962     
+ STEP:        2981
+   Calculation time:  0.916065292483635     
+     Until   1.00000000000000     
+   Real time:         699
+   CPU time:   2791.90408900000     
+   Total energy:  6.713988866771558E-003
+   Total enstrophy:  0.999357696323391     
+ STEP:        2982
+   Calculation time:  0.916340544463451     
+     Until   1.00000000000000     
+   Real time:         699
+   CPU time:   2792.83166800000     
+   Total energy:  6.713988866005956E-003
+   Total enstrophy:  0.999357520051717     
+ STEP:        2983
+   Calculation time:  0.916615731759558     
+     Until   1.00000000000000     
+   Real time:         699
+   CPU time:   2793.75959900000     
+   Total energy:  6.713988865240989E-003
+   Total enstrophy:  0.999357343917926     
+ STEP:        2984
+   Calculation time:  0.916890887046037     
+     Until   1.00000000000000     
+   Real time:         700
+   CPU time:   2794.68580000000     
+   Total energy:  6.713988864476279E-003
+   Total enstrophy:  0.999357167838433     
+ STEP:        2985
+   Calculation time:  0.917166041762922     
+     Until   1.00000000000000     
+   Real time:         700
+   CPU time:   2795.61306200000     
+   Total energy:  6.713988863711481E-003
+   Total enstrophy:  0.999356991732859     
+ STEP:        2986
+   Calculation time:  0.917441225807130     
+     Until   1.00000000000000     
+   Real time:         700
+   CPU time:   2796.53949800000     
+   Total energy:  6.713988862946290E-003
+   Total enstrophy:  0.999356815524737     
+ STEP:        2987
+   Calculation time:  0.917716467256859     
+     Until   1.00000000000000     
+   Real time:         700
+   CPU time:   2797.46892100000     
+   Total energy:  6.713988862180364E-003
+   Total enstrophy:  0.999356639142146     
+ STEP:        2988
+   Calculation time:  0.917991792132346     
+     Until   1.00000000000000     
+   Real time:         701
+   CPU time:   2798.39771400000     
+   Total energy:  6.713988861413429E-003
+   Total enstrophy:  0.999356462518266     
+ STEP:        2989
+   Calculation time:  0.918267224195485     
+     Until   1.00000000000000     
+   Real time:         701
+   CPU time:   2799.32690800000     
+   Total energy:  6.713988860645221E-003
+   Total enstrophy:  0.999356285591865     
+ STEP:        2990
+   Calculation time:  0.918542784790293     
+     Until   1.00000000000000     
+   Real time:         701
+   CPU time:   2800.25344100000     
+   Total energy:  6.713988859875493E-003
+   Total enstrophy:  0.999356108307674     
+ STEP:        2991
+   Calculation time:  0.918818409788029     
+     Until   1.00000000000000     
+   Real time:         701
+   CPU time:   2801.18125000000     
+   Total energy:  6.713988859104962E-003
+   Total enstrophy:  0.999355930830043     
+ STEP:        2992
+   Calculation time:  0.919093857428604     
+     Until   1.00000000000000     
+   Real time:         701
+   CPU time:   2802.10882700000     
+   Total energy:  6.713988858336292E-003
+   Total enstrophy:  0.999355753780113     
+ STEP:        2993
+   Calculation time:  0.919369161553717     
+     Until   1.00000000000000     
+   Real time:         702
+   CPU time:   2803.03512800000     
+   Total energy:  6.713988857569188E-003
+   Total enstrophy:  0.999355577070424     
+ STEP:        2994
+   Calculation time:  0.919644355830940     
+     Until   1.00000000000000     
+   Real time:         702
+   CPU time:   2803.96483000000     
+   Total energy:  6.713988856803188E-003
+   Total enstrophy:  0.999355400614318     
+ STEP:        2995
+   Calculation time:  0.919919473366920     
+     Until   1.00000000000000     
+   Real time:         702
+   CPU time:   2804.89489400000     
+   Total energy:  6.713988856037977E-003
+   Total enstrophy:  0.999355224326842     
+ *** Output budgets ***
+ STEP:        2996
+   Calculation time:  0.919999999999998     
+     Until   1.00000000000000     
+   Real time:         702
+   CPU time:   2805.86225000000     
+   Total energy:  6.713988856032352E-003
+   Total enstrophy:  0.999355223028685     
+ STEP:        2997
+   Calculation time:  0.920275065843959     
+     Until   1.00000000000000     
+   Real time:         703
+   CPU time:   2806.78991900000     
+   Total energy:  6.713988855267591E-003
+   Total enstrophy:  0.999355046836896     
+ STEP:        2998
+   Calculation time:  0.920550126819941     
+     Until   1.00000000000000     
+   Real time:         703
+   CPU time:   2807.72004800000     
+   Total energy:  6.713988854502811E-003
+   Total enstrophy:  0.999354870629769     
+ STEP:        2999
+   Calculation time:  0.920825211773974     
+     Until   1.00000000000000     
+   Real time:         703
+   CPU time:   2808.64847200000     
+   Total energy:  6.713988853737669E-003
+   Total enstrophy:  0.999354694333494     
+ STEP:        3000
+   Calculation time:  0.921100347644526     
+     Until   1.00000000000000     
+   Real time:         703
+   CPU time:   2809.57648800000     
+   Total energy:  6.713988852971873E-003
+   Total enstrophy:  0.999354517879033     
+ STEP:        3001
+   Calculation time:  0.921375559240939     
+     Until   1.00000000000000     
+   Real time:         704
+   CPU time:   2810.50369100000     
+   Total energy:  6.713988852205168E-003
+   Total enstrophy:  0.999354341202668     
+ STEP:        3002
+   Calculation time:  0.921650869062202     
+     Until   1.00000000000000     
+   Real time:         704
+   CPU time:   2811.42972100000     
+   Total energy:  6.713988851437259E-003
+   Total enstrophy:  0.999354164246429     
+ STEP:        3003
+   Calculation time:  0.921926262195341     
+     Until   1.00000000000000     
+   Real time:         704
+   CPU time:   2812.35703900000     
+   Total energy:  6.713988850668325E-003
+   Total enstrophy:  0.999353987048260     
+ STEP:        3004
+   Calculation time:  0.922201675163790     
+     Until   1.00000000000000     
+   Real time:         704
+   CPU time:   2813.28525200000     
+   Total energy:  6.713988849899124E-003
+   Total enstrophy:  0.999353809771103     
+ STEP:        3005
+   Calculation time:  0.922477139252417     
+     Until   1.00000000000000     
+   Real time:         704
+   CPU time:   2814.21352400000     
+   Total energy:  6.713988849129238E-003
+   Total enstrophy:  0.999353632334462     
+ STEP:        3006
+   Calculation time:  0.922752483257450     
+     Until   1.00000000000000     
+   Real time:         705
+   CPU time:   2815.14189100000     
+   Total energy:  6.713988848360601E-003
+   Total enstrophy:  0.999353455178474     
+ STEP:        3007
+   Calculation time:  0.923027702580355     
+     Until   1.00000000000000     
+   Real time:         705
+   CPU time:   2816.06952600000     
+   Total energy:  6.713988847593281E-003
+   Total enstrophy:  0.999353278314638     
+ STEP:        3008
+   Calculation time:  0.923302829605281     
+     Until   1.00000000000000     
+   Real time:         705
+   CPU time:   2816.99744500000     
+   Total energy:  6.713988846826903E-003
+   Total enstrophy:  0.999353101659602     
+ STEP:        3009
+   Calculation time:  0.923577895801285     
+     Until   1.00000000000000     
+   Real time:         705
+   CPU time:   2817.92530300000     
+   Total energy:  6.713988846061099E-003
+   Total enstrophy:  0.999352925132573     
+ STEP:        3010
+   Calculation time:  0.923852931396255     
+     Until   1.00000000000000     
+   Real time:         706
+   CPU time:   2818.85230400000     
+   Total energy:  6.713988845295569E-003
+   Total enstrophy:  0.999352748656038     
+ STEP:        3011
+   Calculation time:  0.924127965082486     
+     Until   1.00000000000000     
+   Real time:         706
+   CPU time:   2819.78053900000     
+   Total energy:  6.713988844529959E-003
+   Total enstrophy:  0.999352572156476     
+ STEP:        3012
+   Calculation time:  0.924403023757055     
+     Until   1.00000000000000     
+   Real time:         706
+   CPU time:   2820.70854000000     
+   Total energy:  6.713988843763985E-003
+   Total enstrophy:  0.999352395564908     
+ STEP:        3013
+   Calculation time:  0.924678132299637     
+     Until   1.00000000000000     
+   Real time:         706
+   CPU time:   2821.63674300000     
+   Total energy:  6.713988842997393E-003
+   Total enstrophy:  0.999352218817442     
+ STEP:        3014
+   Calculation time:  0.924953287879677     
+     Until   1.00000000000000     
+   Real time:         707
+   CPU time:   2822.56405200000     
+   Total energy:  6.713988842230174E-003
+   Total enstrophy:  0.999352041921196     
+ STEP:        3015
+   Calculation time:  0.925228418111997     
+     Until   1.00000000000000     
+   Real time:         707
+   CPU time:   2823.49495800000     
+   Total energy:  6.713988841463171E-003
+   Total enstrophy:  0.999351865061893     
+ STEP:        3016
+   Calculation time:  0.925503554167461     
+     Until   1.00000000000000     
+   Real time:         707
+   CPU time:   2824.42190800000     
+   Total energy:  6.713988840695995E-003
+   Total enstrophy:  0.999351688159467     
+ STEP:        3017
+   Calculation time:  0.925778727038510     
+     Until   1.00000000000000     
+   Real time:         707
+   CPU time:   2825.34951800000     
+   Total energy:  6.713988839928316E-003
+   Total enstrophy:  0.999351511134249     
+ STEP:        3018
+   Calculation time:  0.926053967222168     
+     Until   1.00000000000000     
+   Real time:         708
+   CPU time:   2826.27797200000     
+   Total energy:  6.713988839159842E-003
+   Total enstrophy:  0.999351333907697     
+ STEP:        3019
+   Calculation time:  0.926329304413415     
+     Until   1.00000000000000     
+   Real time:         708
+   CPU time:   2827.20634700000     
+   Total energy:  6.713988838390195E-003
+   Total enstrophy:  0.999351156403122     
+ STEP:        3020
+   Calculation time:  0.926604585559459     
+     Until   1.00000000000000     
+   Real time:         708
+   CPU time:   2828.13355300000     
+   Total energy:  6.713988837621089E-003
+   Total enstrophy:  0.999350979014242     
+ STEP:        3021
+   Calculation time:  0.926879787867720     
+     Until   1.00000000000000     
+   Real time:         708
+   CPU time:   2829.06067900000     
+   Total energy:  6.713988836852751E-003
+   Total enstrophy:  0.999350801799550     
+ STEP:        3022
+   Calculation time:  0.927154940074838     
+     Until   1.00000000000000     
+   Real time:         708
+   CPU time:   2829.98772300000     
+   Total energy:  6.713988836084892E-003
+   Total enstrophy:  0.999350624685006     
+ STEP:        3023
+   Calculation time:  0.927430069454969     
+     Until   1.00000000000000     
+   Real time:         709
+   CPU time:   2830.91517200000     
+   Total energy:  6.713988835317239E-003
+   Total enstrophy:  0.999350447600405     
+ STEP:        3024
+   Calculation time:  0.927705201575680     
+     Until   1.00000000000000     
+   Real time:         709
+   CPU time:   2831.84323500000     
+   Total energy:  6.713988834549447E-003
+   Total enstrophy:  0.999350270479948     
+ STEP:        3025
+   Calculation time:  0.927980281436521     
+     Until   1.00000000000000     
+   Real time:         709
+   CPU time:   2832.77149600000     
+   Total energy:  6.713988833782161E-003
+   Total enstrophy:  0.999350093464907     
+ STEP:        3026
+   Calculation time:  0.928255290612456     
+     Until   1.00000000000000     
+   Real time:         709
+   CPU time:   2833.70133900000     
+   Total energy:  6.713988833015565E-003
+   Total enstrophy:  0.999349916602487     
+ STEP:        3027
+   Calculation time:  0.928530260223699     
+     Until   1.00000000000000     
+   Real time:         710
+   CPU time:   2834.62789600000     
+   Total energy:  6.713988832249340E-003
+   Total enstrophy:  0.999349739812640     
+ STEP:        3028
+   Calculation time:  0.928805221523279     
+     Until   1.00000000000000     
+   Real time:         710
+   CPU time:   2835.55535300000     
+   Total energy:  6.713988831483123E-003
+   Total enstrophy:  0.999349563015039     
+ STEP:        3029
+   Calculation time:  0.929080205569459     
+     Until   1.00000000000000     
+   Real time:         710
+   CPU time:   2836.48340400000     
+   Total energy:  6.713988830716544E-003
+   Total enstrophy:  0.999349386129848     
+ STEP:        3030
+   Calculation time:  0.929355242905746     
+     Until   1.00000000000000     
+   Real time:         710
+   CPU time:   2837.41123100000     
+   Total energy:  6.713988829949314E-003
+   Total enstrophy:  0.999349209078451     
+ STEP:        3031
+   Calculation time:  0.929630363252100     
+     Until   1.00000000000000     
+   Real time:         711
+   CPU time:   2838.33944900000     
+   Total energy:  6.713988829181073E-003
+   Total enstrophy:  0.999349031784178     
+ STEP:        3032
+   Calculation time:  0.929905595210818     
+     Until   1.00000000000000     
+   Real time:         711
+   CPU time:   2839.26782000000     
+   Total energy:  6.713988828411492E-003
+   Total enstrophy:  0.999348854173003     
+ *** Output budgets ***
+ STEP:        3033
+   Calculation time:  0.929999999999998     
+     Until   1.00000000000000     
+   Real time:         711
+   CPU time:   2840.23343000000     
+   Total energy:  6.713988828400822E-003
+   Total enstrophy:  0.999348851706762     
+ STEP:        3034
+   Calculation time:  0.930275260289083     
+     Until   1.00000000000000     
+   Real time:         711
+   CPU time:   2841.16209300000     
+   Total energy:  6.713988827630793E-003
+   Total enstrophy:  0.999348673982041     
+ STEP:        3035
+   Calculation time:  0.930550461604357     
+     Until   1.00000000000000     
+   Real time:         711
+   CPU time:   2842.09057500000     
+   Total energy:  6.713988826861352E-003
+   Total enstrophy:  0.999348496379658     
+ STEP:        3036
+   Calculation time:  0.930825587755080     
+     Until   1.00000000000000     
+   Real time:         712
+   CPU time:   2843.01887100000     
+   Total energy:  6.713988826092665E-003
+   Total enstrophy:  0.999348318941230     
+ STEP:        3037
+   Calculation time:  0.931100587635301     
+     Until   1.00000000000000     
+   Real time:         712
+   CPU time:   2843.94652700000     
+   Total energy:  6.713988825325283E-003
+   Total enstrophy:  0.999348141798120     
+ STEP:        3038
+   Calculation time:  0.931375491865641     
+     Until   1.00000000000000     
+   Real time:         712
+   CPU time:   2844.87458100000     
+   Total energy:  6.713988824558914E-003
+   Total enstrophy:  0.999347964871286     
+ STEP:        3039
+   Calculation time:  0.931650331638316     
+     Until   1.00000000000000     
+   Real time:         712
+   CPU time:   2845.80141600000     
+   Total energy:  6.713988823793161E-003
+   Total enstrophy:  0.999347788080437     
+ STEP:        3040
+   Calculation time:  0.931925138380953     
+     Until   1.00000000000000     
+   Real time:         713
+   CPU time:   2846.72877200000     
+   Total energy:  6.713988823027692E-003
+   Total enstrophy:  0.999347611344810     
+ STEP:        3041
+   Calculation time:  0.932199943423261     
+     Until   1.00000000000000     
+   Real time:         713
+   CPU time:   2847.65647700000     
+   Total energy:  6.713988822262153E-003
+   Total enstrophy:  0.999347434583937     
+ STEP:        3042
+   Calculation time:  0.932474777670386     
+     Until   1.00000000000000     
+   Real time:         713
+   CPU time:   2848.58502100000     
+   Total energy:  6.713988821496180E-003
+   Total enstrophy:  0.999347257718421     
+ STEP:        3043
+   Calculation time:  0.932749671286675     
+     Until   1.00000000000000     
+   Real time:         713
+   CPU time:   2849.51398900000     
+   Total energy:  6.713988820729501E-003
+   Total enstrophy:  0.999347080670654     
+ STEP:        3044
+   Calculation time:  0.933024653393425     
+     Until   1.00000000000000     
+   Real time:         714
+   CPU time:   2850.44038800000     
+   Total energy:  6.713988819961747E-003
+   Total enstrophy:  0.999346903365532     
+ STEP:        3045
+   Calculation time:  0.933299751784090     
+     Until   1.00000000000000     
+   Real time:         714
+   CPU time:   2851.36902000000     
+   Total energy:  6.713988819192575E-003
+   Total enstrophy:  0.999346725731123     
+ STEP:        3046
+   Calculation time:  0.933574992660269     
+     Until   1.00000000000000     
+   Real time:         714
+   CPU time:   2852.29650900000     
+   Total energy:  6.713988818421740E-003
+   Total enstrophy:  0.999346547699304     
+ STEP:        3047
+   Calculation time:  0.933850049301004     
+     Until   1.00000000000000     
+   Real time:         714
+   CPU time:   2853.22470400000     
+   Total energy:  6.713988817652898E-003
+   Total enstrophy:  0.999346370113227     
+ STEP:        3048
+   Calculation time:  0.934124931657060     
+     Until   1.00000000000000     
+   Real time:         714
+   CPU time:   2854.15334300000     
+   Total energy:  6.713988816885909E-003
+   Total enstrophy:  0.999346192946542     
+ STEP:        3049
+   Calculation time:  0.934399670987509     
+     Until   1.00000000000000     
+   Real time:         715
+   CPU time:   2855.08530000000     
+   Total energy:  6.713988816120400E-003
+   Total enstrophy:  0.999346016118289     
+ STEP:        3050
+   Calculation time:  0.934674299483974     
+     Until   1.00000000000000     
+   Real time:         715
+   CPU time:   2856.01293500000     
+   Total energy:  6.713988815356074E-003
+   Total enstrophy:  0.999345839545445     
+ STEP:        3051
+   Calculation time:  0.934948849915561     
+     Until   1.00000000000000     
+   Real time:         715
+   CPU time:   2856.94126700000     
+   Total energy:  6.713988814592526E-003
+   Total enstrophy:  0.999345663143763     
+ STEP:        3052
+   Calculation time:  0.935223355273270     
+     Until   1.00000000000000     
+   Real time:         715
+   CPU time:   2857.86865100000     
+   Total energy:  6.713988813829399E-003
+   Total enstrophy:  0.999345486828600     
+ STEP:        3053
+   Calculation time:  0.935497848417999     
+     Until   1.00000000000000     
+   Real time:         716
+   CPU time:   2858.79576800000     
+   Total energy:  6.713988813066316E-003
+   Total enstrophy:  0.999345310515731     
+ STEP:        3054
+   Calculation time:  0.935772361736119     
+     Until   1.00000000000000     
+   Real time:         716
+   CPU time:   2859.72310600000     
+   Total energy:  6.713988812302951E-003
+   Total enstrophy:  0.999345134122138     
+ STEP:        3055
+   Calculation time:  0.936046926806438     
+     Until   1.00000000000000     
+   Real time:         716
+   CPU time:   2860.65158800000     
+   Total energy:  6.713988811538910E-003
+   Total enstrophy:  0.999344957566775     
+ STEP:        3056
+   Calculation time:  0.936321574082259     
+     Until   1.00000000000000     
+   Real time:         716
+   CPU time:   2861.58052100000     
+   Total energy:  6.713988810773903E-003
+   Total enstrophy:  0.999344780771315     
+ STEP:        3057
+   Calculation time:  0.936596332592106     
+     Until   1.00000000000000     
+   Real time:         717
+   CPU time:   2862.50844400000     
+   Total energy:  6.713988810007570E-003
+   Total enstrophy:  0.999344603660844     
+ STEP:        3058
+   Calculation time:  0.936871229662556     
+     Until   1.00000000000000     
+   Real time:         717
+   CPU time:   2863.43708000000     
+   Total energy:  6.713988809239604E-003
+   Total enstrophy:  0.999344426164523     
+ STEP:        3059
+   Calculation time:  0.937146207083934     
+     Until   1.00000000000000     
+   Real time:         717
+   CPU time:   2864.36388300000     
+   Total energy:  6.713988808470685E-003
+   Total enstrophy:  0.999344248432031     
+ STEP:        3060
+   Calculation time:  0.937420980999755     
+     Until   1.00000000000000     
+   Real time:         717
+   CPU time:   2865.29355100000     
+   Total energy:  6.713988807703923E-003
+   Total enstrophy:  0.999344071195419     
+ STEP:        3061
+   Calculation time:  0.937695583450768     
+     Until   1.00000000000000     
+   Real time:         717
+   CPU time:   2866.22106700000     
+   Total energy:  6.713988806939020E-003
+   Total enstrophy:  0.999343894371395     
+ STEP:        3062
+   Calculation time:  0.937970047524560     
+     Until   1.00000000000000     
+   Real time:         718
+   CPU time:   2867.14933800000     
+   Total energy:  6.713988806175543E-003
+   Total enstrophy:  0.999343717874398     
+ STEP:        3063
+   Calculation time:  0.938244406987243     
+     Until   1.00000000000000     
+   Real time:         718
+   CPU time:   2868.07824500000     
+   Total energy:  6.713988805413163E-003
+   Total enstrophy:  0.999343541617467     
+ STEP:        3064
+   Calculation time:  0.938518695914254     
+     Until   1.00000000000000     
+   Real time:         718
+   CPU time:   2869.00603700000     
+   Total energy:  6.713988804651517E-003
+   Total enstrophy:  0.999343365513099     
+ STEP:        3065
+   Calculation time:  0.938792948324542     
+     Until   1.00000000000000     
+   Real time:         718
+   CPU time:   2869.93335400000     
+   Total energy:  6.713988803890152E-003
+   Total enstrophy:  0.999343189474094     
+ STEP:        3066
+   Calculation time:  0.939067197822211     
+     Until   1.00000000000000     
+   Real time:         719
+   CPU time:   2870.86004800000     
+   Total energy:  6.713988803128760E-003
+   Total enstrophy:  0.999343013414375     
+ STEP:        3067
+   Calculation time:  0.939341477249525     
+     Until   1.00000000000000     
+   Real time:         719
+   CPU time:   2871.78611300000     
+   Total energy:  6.713988802366962E-003
+   Total enstrophy:  0.999342837249788     
+ STEP:        3068
+   Calculation time:  0.939615818355046     
+     Until   1.00000000000000     
+   Real time:         719
+   CPU time:   2872.71404300000     
+   Total energy:  6.713988801604377E-003
+   Total enstrophy:  0.999342660898867     
+ STEP:        3069
+   Calculation time:  0.939890251480537     
+     Until   1.00000000000000     
+   Real time:         719
+   CPU time:   2873.64301000000     
+   Total energy:  6.713988800840717E-003
+   Total enstrophy:  0.999342484283554     
+ *** Output budgets ***
+ STEP:        3070
+   Calculation time:  0.939999999999998     
+     Until   1.00000000000000     
+   Real time:         720
+   CPU time:   2874.60710200000     
+   Total energy:  6.713988800821126E-003
+   Total enstrophy:  0.999342479752558     
+ STEP:        3071
+   Calculation time:  0.940274609610050     
+     Until   1.00000000000000     
+   Real time:         720
+   CPU time:   2875.53564400000     
+   Total energy:  6.713988800055402E-003
+   Total enstrophy:  0.999342302643138     
+ STEP:        3072
+   Calculation time:  0.940549376630067     
+     Until   1.00000000000000     
+   Real time:         720
+   CPU time:   2876.46380800000     
+   Total energy:  6.713988799287847E-003
+   Total enstrophy:  0.999342125099946     
+ STEP:        3073
+   Calculation time:  0.940824181613939     
+     Until   1.00000000000000     
+   Real time:         720
+   CPU time:   2877.39351600000     
+   Total energy:  6.713988798519742E-003
+   Total enstrophy:  0.999341947430811     
+ STEP:        3074
+   Calculation time:  0.941098787966014     
+     Until   1.00000000000000     
+   Real time:         721
+   CPU time:   2878.32056700000     
+   Total energy:  6.713988797753839E-003
+   Total enstrophy:  0.999341770246131     
+ STEP:        3075
+   Calculation time:  0.941373230009045     
+     Until   1.00000000000000     
+   Real time:         721
+   CPU time:   2879.24915800000     
+   Total energy:  6.713988796989650E-003
+   Total enstrophy:  0.999341593456812     
+ STEP:        3076
+   Calculation time:  0.941647542785885     
+     Until   1.00000000000000     
+   Real time:         721
+   CPU time:   2880.17590000000     
+   Total energy:  6.713988796226861E-003
+   Total enstrophy:  0.999341416972353     
+ STEP:        3077
+   Calculation time:  0.941921761673512     
+     Until   1.00000000000000     
+   Real time:         721
+   CPU time:   2881.10475200000     
+   Total energy:  6.713988795465008E-003
+   Total enstrophy:  0.999341240701733     
+ STEP:        3078
+   Calculation time:  0.942195922001604     
+     Until   1.00000000000000     
+   Real time:         721
+   CPU time:   2882.03245400000     
+   Total energy:  6.713988794703750E-003
+   Total enstrophy:  0.999341064554293     
+ STEP:        3079
+   Calculation time:  0.942470058679766     
+     Until   1.00000000000000     
+   Real time:         722
+   CPU time:   2882.96110800000     
+   Total energy:  6.713988793942655E-003
+   Total enstrophy:  0.999340888440596     
+ STEP:        3080
+   Calculation time:  0.942744205837352     
+     Until   1.00000000000000     
+   Real time:         722
+   CPU time:   2883.89001500000     
+   Total energy:  6.713988793181394E-003
+   Total enstrophy:  0.999340712273229     
+ STEP:        3081
+   Calculation time:  0.943018396479600     
+     Until   1.00000000000000     
+   Real time:         722
+   CPU time:   2884.86336300000     
+   Total energy:  6.713988792419532E-003
+   Total enstrophy:  0.999340535967596     
+ STEP:        3082
+   Calculation time:  0.943292662163729     
+     Until   1.00000000000000     
+   Real time:         722
+   CPU time:   2885.79231300000     
+   Total energy:  6.713988791656821E-003
+   Total enstrophy:  0.999340359442676     
+ STEP:        3083
+   Calculation time:  0.943567032698433     
+     Until   1.00000000000000     
+   Real time:         723
+   CPU time:   2886.72421600000     
+   Total energy:  6.713988790892841E-003
+   Total enstrophy:  0.999340182621693     
+ STEP:        3084
+   Calculation time:  0.943841535870137     
+     Until   1.00000000000000     
+   Real time:         723
+   CPU time:   2887.65162900000     
+   Total energy:  6.713988790127309E-003
+   Total enstrophy:  0.999340005432798     
+ STEP:        3085
+   Calculation time:  0.944116197199179     
+     Until   1.00000000000000     
+   Real time:         723
+   CPU time:   2888.57980700000     
+   Total energy:  6.713988789359957E-003
+   Total enstrophy:  0.999339827809645     
+ STEP:        3086
+   Calculation time:  0.944391039728910     
+     Until   1.00000000000000     
+   Real time:         723
+   CPU time:   2889.50857200000     
+   Total energy:  6.713988788590495E-003
+   Total enstrophy:  0.999339649691919     
+ STEP:        3087
+   Calculation time:  0.944665831391614     
+     Until   1.00000000000000     
+   Real time:         724
+   CPU time:   2890.43590600000     
+   Total energy:  6.713988787821536E-003
+   Total enstrophy:  0.999339471679753     
+ STEP:        3088
+   Calculation time:  0.944940447501669     
+     Until   1.00000000000000     
+   Real time:         724
+   CPU time:   2891.36416100000     
+   Total energy:  6.713988787054484E-003
+   Total enstrophy:  0.999339294095434     
+ STEP:        3089
+   Calculation time:  0.945214923164700     
+     Until   1.00000000000000     
+   Real time:         724
+   CPU time:   2892.29198900000     
+   Total energy:  6.713988786288898E-003
+   Total enstrophy:  0.999339116847866     
+ STEP:        3090
+   Calculation time:  0.945489293714878     
+     Until   1.00000000000000     
+   Real time:         724
+   CPU time:   2893.21970800000     
+   Total energy:  6.713988785524422E-003
+   Total enstrophy:  0.999338939845726     
+ STEP:        3091
+   Calculation time:  0.945763594331735     
+     Until   1.00000000000000     
+   Real time:         724
+   CPU time:   2894.14669900000     
+   Total energy:  6.713988784760656E-003
+   Total enstrophy:  0.999338762998349     
+ STEP:        3092
+   Calculation time:  0.946037859668215     
+     Until   1.00000000000000     
+   Real time:         725
+   CPU time:   2895.07474600000     
+   Total energy:  6.713988783997205E-003
+   Total enstrophy:  0.999338586216597     
+ STEP:        3093
+   Calculation time:  0.946312123493835     
+     Until   1.00000000000000     
+   Real time:         725
+   CPU time:   2896.00496400000     
+   Total energy:  6.713988783233708E-003
+   Total enstrophy:  0.999338409413645     
+ STEP:        3094
+   Calculation time:  0.946586418356613     
+     Until   1.00000000000000     
+   Real time:         725
+   CPU time:   2896.93256200000     
+   Total energy:  6.713988782469779E-003
+   Total enstrophy:  0.999338232505776     
+ STEP:        3095
+   Calculation time:  0.946860775267255     
+     Until   1.00000000000000     
+   Real time:         725
+   CPU time:   2897.85994500000     
+   Total energy:  6.713988781705140E-003
+   Total enstrophy:  0.999338055413114     
+ STEP:        3096
+   Calculation time:  0.947135223408934     
+     Until   1.00000000000000     
+   Real time:         726
+   CPU time:   2898.78562600000     
+   Total energy:  6.713988780939392E-003
+   Total enstrophy:  0.999337878060283     
+ STEP:        3097
+   Calculation time:  0.947409789875782     
+     Until   1.00000000000000     
+   Real time:         726
+   CPU time:   2899.71277600000     
+   Total energy:  6.713988780172248E-003
+   Total enstrophy:  0.999337700377046     
+ STEP:        3098
+   Calculation time:  0.947684499443089     
+     Until   1.00000000000000     
+   Real time:         726
+   CPU time:   2900.64033800000     
+   Total energy:  6.713988779403432E-003
+   Total enstrophy:  0.999337522298855     
+ STEP:        3099
+   Calculation time:  0.947959374371901     
+     Until   1.00000000000000     
+   Real time:         726
+   CPU time:   2901.56905200000     
+   Total energy:  6.713988778632704E-003
+   Total enstrophy:  0.999337343767347     
+ STEP:        3100
+   Calculation time:  0.948234383882194     
+     Until   1.00000000000000     
+   Real time:         727
+   CPU time:   2902.49772300000     
+   Total energy:  6.713988777860398E-003
+   Total enstrophy:  0.999337164861639     
+ STEP:        3101
+   Calculation time:  0.948509207524933     
+     Until   1.00000000000000     
+   Real time:         727
+   CPU time:   2903.42552500000     
+   Total energy:  6.713988777090091E-003
+   Total enstrophy:  0.999336986413466     
+ STEP:        3102
+   Calculation time:  0.948783879862738     
+     Until   1.00000000000000     
+   Real time:         727
+   CPU time:   2904.35334800000     
+   Total energy:  6.713988776321406E-003
+   Total enstrophy:  0.999336808332573     
+ STEP:        3103
+   Calculation time:  0.949058435565855     
+     Until   1.00000000000000     
+   Real time:         727
+   CPU time:   2905.28034300000     
+   Total energy:  6.713988775553977E-003
+   Total enstrophy:  0.999336630528819     
+ STEP:        3104
+   Calculation time:  0.949332909036883     
+     Until   1.00000000000000     
+   Real time:         727
+   CPU time:   2906.20748500000     
+   Total energy:  6.713988774787351E-003
+   Total enstrophy:  0.999336452913055     
+ STEP:        3105
+   Calculation time:  0.949607334049137     
+     Until   1.00000000000000     
+   Real time:         728
+   CPU time:   2907.13561400000     
+   Total energy:  6.713988774021231E-003
+   Total enstrophy:  0.999336275397946     
+ STEP:        3106
+   Calculation time:  0.949881743402394     
+     Until   1.00000000000000     
+   Real time:         728
+   CPU time:   2908.06512100000     
+   Total energy:  6.713988773255200E-003
+   Total enstrophy:  0.999336097898778     
+ *** Output budgets ***
+ STEP:        3107
+   Calculation time:  0.949999999999998     
+     Until   1.00000000000000     
+   Real time:         728
+   CPU time:   2909.03554600000     
+   Total energy:  6.713988773228733E-003
+   Total enstrophy:  0.999336091758701     
+ STEP:        3108
+   Calculation time:  0.950274441343900     
+     Until   1.00000000000000     
+   Real time:         728
+   CPU time:   2909.96369700000     
+   Total energy:  6.713988772462253E-003
+   Total enstrophy:  0.999335914140913     
+ STEP:        3109
+   Calculation time:  0.950548940765904     
+     Until   1.00000000000000     
+   Real time:         729
+   CPU time:   2910.89188900000     
+   Total energy:  6.713988771695050E-003
+   Total enstrophy:  0.999335736348471     
+ STEP:        3110
+   Calculation time:  0.950823525423397     
+     Until   1.00000000000000     
+   Real time:         729
+   CPU time:   2911.82042400000     
+   Total energy:  6.713988770926800E-003
+   Total enstrophy:  0.999335558310931     
+ STEP:        3111
+   Calculation time:  0.951098220269767     
+     Until   1.00000000000000     
+   Real time:         729
+   CPU time:   2912.74815300000     
+   Total energy:  6.713988770157297E-003
+   Total enstrophy:  0.999335379963350     
+ STEP:        3112
+   Calculation time:  0.951373047860339     
+     Until   1.00000000000000     
+   Real time:         729
+   CPU time:   2913.67700300000     
+   Total energy:  6.713988769386208E-003
+   Total enstrophy:  0.999335201246752     
+ STEP:        3113
+   Calculation time:  0.951648028194422     
+     Until   1.00000000000000     
+   Real time:         730
+   CPU time:   2914.60337600000     
+   Total energy:  6.713988768613384E-003
+   Total enstrophy:  0.999335022108530     
+ STEP:        3114
+   Calculation time:  0.951923178595344     
+     Until   1.00000000000000     
+   Real time:         730
+   CPU time:   2915.53041400000     
+   Total energy:  6.713988767838522E-003
+   Total enstrophy:  0.999334842502777     
+ STEP:        3115
+   Calculation time:  0.952198332119986     
+     Until   1.00000000000000     
+   Real time:         730
+   CPU time:   2916.45693900000     
+   Total energy:  6.713988767063569E-003
+   Total enstrophy:  0.999334662864175     
+ STEP:        3116
+   Calculation time:  0.952473338256823     
+     Until   1.00000000000000     
+   Real time:         730
+   CPU time:   2917.38602600000     
+   Total energy:  6.713988766290237E-003
+   Total enstrophy:  0.999334483584881     
+ STEP:        3117
+   Calculation time:  0.952748230227249     
+     Until   1.00000000000000     
+   Real time:         731
+   CPU time:   2918.31524200000     
+   Total energy:  6.713988765518084E-003
+   Total enstrophy:  0.999334304578062     
+ STEP:        3118
+   Calculation time:  0.953023040762846     
+     Until   1.00000000000000     
+   Real time:         731
+   CPU time:   2919.24565500000     
+   Total energy:  6.713988764746779E-003
+   Total enstrophy:  0.999334125758457     
+ STEP:        3119
+   Calculation time:  0.953297801769214     
+     Until   1.00000000000000     
+   Real time:         731
+   CPU time:   2920.17370200000     
+   Total energy:  6.713988763975972E-003
+   Total enstrophy:  0.999333947043133     
+ STEP:        3120
+   Calculation time:  0.953572544010068     
+     Until   1.00000000000000     
+   Real time:         731
+   CPU time:   2921.10024100000     
+   Total energy:  6.713988763205281E-003
+   Total enstrophy:  0.999333768352240     
+ STEP:        3121
+   Calculation time:  0.953847296814780     
+     Until   1.00000000000000     
+   Real time:         731
+   CPU time:   2922.02746200000     
+   Total energy:  6.713988762434406E-003
+   Total enstrophy:  0.999333589609666     
+ STEP:        3122
+   Calculation time:  0.954122087812341     
+     Until   1.00000000000000     
+   Real time:         732
+   CPU time:   2922.95553000000     
+   Total energy:  6.713988761663048E-003
+   Total enstrophy:  0.999333410743659     
+ STEP:        3123
+   Calculation time:  0.954396942694425     
+     Until   1.00000000000000     
+   Real time:         732
+   CPU time:   2923.88495400000     
+   Total energy:  6.713988760890882E-003
+   Total enstrophy:  0.999333231687399     
+ STEP:        3124
+   Calculation time:  0.954671885010024     
+     Until   1.00000000000000     
+   Real time:         732
+   CPU time:   2924.81203100000     
+   Total energy:  6.713988760117704E-003
+   Total enstrophy:  0.999333052379472     
+ STEP:        3125
+   Calculation time:  0.954946856149233     
+     Until   1.00000000000000     
+   Real time:         732
+   CPU time:   2925.74139800000     
+   Total energy:  6.713988759344078E-003
+   Total enstrophy:  0.999332872972422     
+ STEP:        3126
+   Calculation time:  0.955221821590583     
+     Until   1.00000000000000     
+   Real time:         733
+   CPU time:   2926.66865800000     
+   Total energy:  6.713988758570476E-003
+   Total enstrophy:  0.999332693556229     
+ STEP:        3127
+   Calculation time:  0.955496814789248     
+     Until   1.00000000000000     
+   Real time:         733
+   CPU time:   2927.59503900000     
+   Total energy:  6.713988757796488E-003
+   Total enstrophy:  0.999332514043788     
+ STEP:        3128
+   Calculation time:  0.955771868864869     
+     Until   1.00000000000000     
+   Real time:         733
+   CPU time:   2928.52224100000     
+   Total energy:  6.713988757021715E-003
+   Total enstrophy:  0.999332334348737     
+ STEP:        3129
+   Calculation time:  0.956047016259682     
+     Until   1.00000000000000     
+   Real time:         733
+   CPU time:   2929.45079200000     
+   Total energy:  6.713988756245860E-003
+   Total enstrophy:  0.999332154386281     
+ STEP:        3130
+   Calculation time:  0.956322288404167     
+     Until   1.00000000000000     
+   Real time:         734
+   CPU time:   2930.37994900000     
+   Total energy:  6.713988755468498E-003
+   Total enstrophy:  0.999331974073967     
+ STEP:        3131
+   Calculation time:  0.956597623865092     
+     Until   1.00000000000000     
+   Real time:         734
+   CPU time:   2931.31444000000     
+   Total energy:  6.713988754690410E-003
+   Total enstrophy:  0.999331793572197     
+ STEP:        3132
+   Calculation time:  0.956872890780448     
+     Until   1.00000000000000     
+   Real time:         734
+   CPU time:   2932.24333900000     
+   Total energy:  6.713988753912986E-003
+   Total enstrophy:  0.999331613226079     
+ STEP:        3133
+   Calculation time:  0.957148117700015     
+     Until   1.00000000000000     
+   Real time:         734
+   CPU time:   2933.17408900000     
+   Total energy:  6.713988753135921E-003
+   Total enstrophy:  0.999331432960924     
+ STEP:        3134
+   Calculation time:  0.957423331740901     
+     Until   1.00000000000000     
+   Real time:         734
+   CPU time:   2934.10191400000     
+   Total energy:  6.713988752358980E-003
+   Total enstrophy:  0.999331252705851     
+ STEP:        3135
+   Calculation time:  0.957698558353281     
+     Until   1.00000000000000     
+   Real time:         735
+   CPU time:   2935.02979400000     
+   Total energy:  6.713988751581831E-003
+   Total enstrophy:  0.999331072394331     
+ STEP:        3136
+   Calculation time:  0.957973691066097     
+     Until   1.00000000000000     
+   Real time:         735
+   CPU time:   2935.95817400000     
+   Total energy:  6.713988750805631E-003
+   Total enstrophy:  0.999330892304816     
+ STEP:        3137
+   Calculation time:  0.958248735356935     
+     Until   1.00000000000000     
+   Real time:         735
+   CPU time:   2936.88842100000     
+   Total energy:  6.713988750030383E-003
+   Total enstrophy:  0.999330712422842     
+ STEP:        3138
+   Calculation time:  0.958523724819181     
+     Until   1.00000000000000     
+   Real time:         735
+   CPU time:   2937.81577000000     
+   Total energy:  6.713988749255665E-003
+   Total enstrophy:  0.999330532660585     
+ STEP:        3139
+   Calculation time:  0.958798693349998     
+     Until   1.00000000000000     
+   Real time:         736
+   CPU time:   2938.74354600000     
+   Total energy:  6.713988748481131E-003
+   Total enstrophy:  0.999330352929529     
+ STEP:        3140
+   Calculation time:  0.959073674793098     
+     Until   1.00000000000000     
+   Real time:         736
+   CPU time:   2939.66990700000     
+   Total energy:  6.713988747706372E-003
+   Total enstrophy:  0.999330173141326     
+ STEP:        3141
+   Calculation time:  0.959348702582998     
+     Until   1.00000000000000     
+   Real time:         736
+   CPU time:   2940.59832300000     
+   Total energy:  6.713988746931028E-003
+   Total enstrophy:  0.999329993208596     
+ STEP:        3142
+   Calculation time:  0.959623809394620     
+     Until   1.00000000000000     
+   Real time:         736
+   CPU time:   2941.52723200000     
+   Total energy:  6.713988746154736E-003
+   Total enstrophy:  0.999329813045770     
+ STEP:        3143
+   Calculation time:  0.959899026802108     
+     Until   1.00000000000000     
+   Real time:         737
+   CPU time:   2942.45636400000     
+   Total energy:  6.713988745377120E-003
+   Total enstrophy:  0.999329632569892     
+ *** Output budgets ***
+ STEP:        3144
+   Calculation time:  0.959999999999998     
+     Until   1.00000000000000     
+   Real time:         737
+   CPU time:   2943.42271400000     
+   Total energy:  6.713988745362972E-003
+   Total enstrophy:  0.999329629289760     
+ STEP:        3145
+   Calculation time:  0.960275416983599     
+     Until   1.00000000000000     
+   Real time:         737
+   CPU time:   2944.35154000000     
+   Total energy:  6.713988744583010E-003
+   Total enstrophy:  0.999329448257330     
+ STEP:        3146
+   Calculation time:  0.960551013038507     
+     Until   1.00000000000000     
+   Real time:         737
+   CPU time:   2945.28278100000     
+   Total energy:  6.713988743800951E-003
+   Total enstrophy:  0.999329266730439     
+ STEP:        3147
+   Calculation time:  0.960826784797722     
+     Until   1.00000000000000     
+   Real time:         737
+   CPU time:   2946.21180100000     
+   Total energy:  6.713988743016797E-003
+   Total enstrophy:  0.999329084716809     
+ STEP:        3148
+   Calculation time:  0.961102437134770     
+     Until   1.00000000000000     
+   Real time:         738
+   CPU time:   2947.13960400000     
+   Total energy:  6.713988742233955E-003
+   Total enstrophy:  0.999328902993455     
+ STEP:        3149
+   Calculation time:  0.961377940109108     
+     Until   1.00000000000000     
+   Real time:         738
+   CPU time:   2948.06679100000     
+   Total energy:  6.713988741452756E-003
+   Total enstrophy:  0.999328721638658     
+ STEP:        3150
+   Calculation time:  0.961653326209023     
+     Until   1.00000000000000     
+   Real time:         738
+   CPU time:   2948.99417500000     
+   Total energy:  6.713988740672759E-003
+   Total enstrophy:  0.999328540566484     
+ STEP:        3151
+   Calculation time:  0.961928628683741     
+     Until   1.00000000000000     
+   Real time:         738
+   CPU time:   2949.92081100000     
+   Total energy:  6.713988739893666E-003
+   Total enstrophy:  0.999328359689292     
+ STEP:        3152
+   Calculation time:  0.962203881185789     
+     Until   1.00000000000000     
+   Real time:         739
+   CPU time:   2950.85227700000     
+   Total energy:  6.713988739115040E-003
+   Total enstrophy:  0.999328178918573     
+ STEP:        3153
+   Calculation time:  0.962479117409730     
+     Until   1.00000000000000     
+   Real time:         739
+   CPU time:   2951.78004100000     
+   Total energy:  6.713988738336563E-003
+   Total enstrophy:  0.999327998165810     
+ STEP:        3154
+   Calculation time:  0.962754370731343     
+     Until   1.00000000000000     
+   Real time:         739
+   CPU time:   2952.70936200000     
+   Total energy:  6.713988737557823E-003
+   Total enstrophy:  0.999327817343330     
+ STEP:        3155
+   Calculation time:  0.963029673851268     
+     Until   1.00000000000000     
+   Real time:         739
+   CPU time:   2953.63643000000     
+   Total energy:  6.713988736778431E-003
+   Total enstrophy:  0.999327636365141     
+ STEP:        3156
+   Calculation time:  0.963305058447196     
+     Until   1.00000000000000     
+   Real time:         740
+   CPU time:   2954.56486600000     
+   Total energy:  6.713988735998032E-003
+   Total enstrophy:  0.999327455147758     
+ STEP:        3157
+   Calculation time:  0.963580554838637     
+     Until   1.00000000000000     
+   Real time:         740
+   CPU time:   2955.49155000000     
+   Total energy:  6.713988735216323E-003
+   Total enstrophy:  0.999327273611013     
+ STEP:        3158
+   Calculation time:  0.963856191668414     
+     Until   1.00000000000000     
+   Real time:         740
+   CPU time:   2956.41778800000     
+   Total energy:  6.713988734432912E-003
+   Total enstrophy:  0.999327091678826     
+ STEP:        3159
+   Calculation time:  0.964131995604986     
+     Until   1.00000000000000     
+   Real time:         740
+   CPU time:   2957.34657100000     
+   Total energy:  6.713988733647566E-003
+   Total enstrophy:  0.999326909279955     
+ STEP:        3160
+   Calculation time:  0.964407991069763     
+     Until   1.00000000000000     
+   Real time:         741
+   CPU time:   2958.27471600000     
+   Total energy:  6.713988732859938E-003
+   Total enstrophy:  0.999326726348683     
+ STEP:        3161
+   Calculation time:  0.964684014812714     
+     Until   1.00000000000000     
+   Real time:         741
+   CPU time:   2959.20259500000     
+   Total energy:  6.713988732071919E-003
+   Total enstrophy:  0.999326543316281     
+ STEP:        3162
+   Calculation time:  0.964959877659528     
+     Until   1.00000000000000     
+   Real time:         741
+   CPU time:   2960.12988700000     
+   Total energy:  6.713988731285642E-003
+   Total enstrophy:  0.999326360683163     
+ STEP:        3163
+   Calculation time:  0.965235612680778     
+     Until   1.00000000000000     
+   Real time:         741
+   CPU time:   2961.05865000000     
+   Total energy:  6.713988730500779E-003
+   Total enstrophy:  0.999326178361267     
+ STEP:        3164
+   Calculation time:  0.965511253587416     
+     Until   1.00000000000000     
+   Real time:         741
+   CPU time:   2961.98451100000     
+   Total energy:  6.713988729716904E-003
+   Total enstrophy:  0.999325996261169     
+ STEP:        3165
+   Calculation time:  0.965786834365505     
+     Until   1.00000000000000     
+   Real time:         742
+   CPU time:   2962.91171800000     
+   Total energy:  6.713988728933624E-003
+   Total enstrophy:  0.999325814292946     
+ STEP:        3166
+   Calculation time:  0.966062388909297     
+     Until   1.00000000000000     
+   Real time:         742
+   CPU time:   2963.84019000000     
+   Total energy:  6.713988728150566E-003
+   Total enstrophy:  0.999325632367065     
+ STEP:        3167
+   Calculation time:  0.966337950656814     
+     Until   1.00000000000000     
+   Real time:         742
+   CPU time:   2964.76945200000     
+   Total energy:  6.713988727367334E-003
+   Total enstrophy:  0.999325450395219     
+ STEP:        3168
+   Calculation time:  0.966613552232072     
+     Until   1.00000000000000     
+   Real time:         742
+   CPU time:   2965.69749600000     
+   Total energy:  6.713988726583617E-003
+   Total enstrophy:  0.999325268291194     
+ STEP:        3169
+   Calculation time:  0.966889225098079     
+     Until   1.00000000000000     
+   Real time:         743
+   CPU time:   2966.62441900000     
+   Total energy:  6.713988725798961E-003
+   Total enstrophy:  0.999325085971694     
+ STEP:        3170
+   Calculation time:  0.967164999224739     
+     Until   1.00000000000000     
+   Real time:         743
+   CPU time:   2967.55087000000     
+   Total energy:  6.713988725013123E-003
+   Total enstrophy:  0.999324903357136     
+ STEP:        3171
+   Calculation time:  0.967440902775817     
+     Until   1.00000000000000     
+   Real time:         743
+   CPU time:   2968.47792700000     
+   Total energy:  6.713988724225736E-003
+   Total enstrophy:  0.999324720372421     
+ STEP:        3172
+   Calculation time:  0.967716961819130     
+     Until   1.00000000000000     
+   Real time:         743
+   CPU time:   2969.40701500000     
+   Total energy:  6.713988723436467E-003
+   Total enstrophy:  0.999324536947668     
+ STEP:        3173
+   Calculation time:  0.967993200064077     
+     Until   1.00000000000000     
+   Real time:         744
+   CPU time:   2970.33560700000     
+   Total energy:  6.713988722645087E-003
+   Total enstrophy:  0.999324353018880     
+ STEP:        3174
+   Calculation time:  0.968269481637081     
+     Until   1.00000000000000     
+   Real time:         744
+   CPU time:   2971.26503500000     
+   Total energy:  6.713988721853152E-003
+   Total enstrophy:  0.999324168946582     
+ STEP:        3175
+   Calculation time:  0.968545774743279     
+     Until   1.00000000000000     
+   Real time:         744
+   CPU time:   2972.19141900000     
+   Total energy:  6.713988721060997E-003
+   Total enstrophy:  0.999323984815177     
+ STEP:        3176
+   Calculation time:  0.968821927338320     
+     Until   1.00000000000000     
+   Real time:         744
+   CPU time:   2973.11995900000     
+   Total energy:  6.713988720270365E-003
+   Total enstrophy:  0.999323801028915     
+ STEP:        3177
+   Calculation time:  0.969097973479942     
+     Until   1.00000000000000     
+   Real time:         744
+   CPU time:   2974.04689800000     
+   Total energy:  6.713988719480892E-003
+   Total enstrophy:  0.999323617496835     
+ STEP:        3178
+   Calculation time:  0.969373947365833     
+     Until   1.00000000000000     
+   Real time:         745
+   CPU time:   2974.97390400000     
+   Total energy:  6.713988718692131E-003
+   Total enstrophy:  0.999323434127878     
+ STEP:        3179
+   Calculation time:  0.969649882961798     
+     Until   1.00000000000000     
+   Real time:         745
+   CPU time:   2975.90220800000     
+   Total energy:  6.713988717903730E-003
+   Total enstrophy:  0.999323250831775     
+ STEP:        3180
+   Calculation time:  0.969925813634574     
+     Until   1.00000000000000     
+   Real time:         745
+   CPU time:   2976.83086700000     
+   Total energy:  6.713988717115320E-003
+   Total enstrophy:  0.999323067519919     
+ *** Output budgets ***
+ STEP:        3181
+   Calculation time:  0.969999999999998     
+     Until   1.00000000000000     
+   Real time:         745
+   CPU time:   2977.79693300000     
+   Total energy:  6.713988717111201E-003
+   Total enstrophy:  0.999323066558868     
+ STEP:        3182
+   Calculation time:  0.970275970912116     
+     Until   1.00000000000000     
+   Real time:         746
+   CPU time:   2978.72559700000     
+   Total energy:  6.713988716322226E-003
+   Total enstrophy:  0.999322883102891     
+ STEP:        3183
+   Calculation time:  0.970552008515490     
+     Until   1.00000000000000     
+   Real time:         746
+   CPU time:   2979.65446800000     
+   Total energy:  6.713988715532420E-003
+   Total enstrophy:  0.999322699440750     
+ STEP:        3184
+   Calculation time:  0.970828141794824     
+     Until   1.00000000000000     
+   Real time:         746
+   CPU time:   2980.58201100000     
+   Total energy:  6.713988714741451E-003
+   Total enstrophy:  0.999322515495080     
+ STEP:        3185
+   Calculation time:  0.971104397719673     
+     Until   1.00000000000000     
+   Real time:         746
+   CPU time:   2981.51113100000     
+   Total energy:  6.713988713949002E-003
+   Total enstrophy:  0.999322331193617     
+ STEP:        3186
+   Calculation time:  0.971380800971253     
+     Until   1.00000000000000     
+   Real time:         747
+   CPU time:   2982.44210800000     
+   Total energy:  6.713988713154775E-003
+   Total enstrophy:  0.999322146469882     
+ STEP:        3187
+   Calculation time:  0.971657253765529     
+     Until   1.00000000000000     
+   Real time:         747
+   CPU time:   2983.36892100000     
+   Total energy:  6.713988712359892E-003
+   Total enstrophy:  0.999321961584306     
+ STEP:        3188
+   Calculation time:  0.971933717244300     
+     Until   1.00000000000000     
+   Real time:         747
+   CPU time:   2984.30630400000     
+   Total energy:  6.713988711564846E-003
+   Total enstrophy:  0.999321776640523     
+ STEP:        3189
+   Calculation time:  0.972210194632656     
+     Until   1.00000000000000     
+   Real time:         747
+   CPU time:   2985.23627100000     
+   Total energy:  6.713988710769545E-003
+   Total enstrophy:  0.999321591629839     
+ STEP:        3190
+   Calculation time:  0.972486689071328     
+     Until   1.00000000000000     
+   Real time:         747
+   CPU time:   2986.16467800000     
+   Total energy:  6.713988709973953E-003
+   Total enstrophy:  0.999321406543785     
+ STEP:        3191
+   Calculation time:  0.972763180308538     
+     Until   1.00000000000000     
+   Real time:         748
+   CPU time:   2987.09444900000     
+   Total energy:  6.713988709178326E-003
+   Total enstrophy:  0.999321221436423     
+ STEP:        3192
+   Calculation time:  0.973039581878796     
+     Until   1.00000000000000     
+   Real time:         748
+   CPU time:   2988.02092200000     
+   Total energy:  6.713988708383667E-003
+   Total enstrophy:  0.999321036538773     
+ STEP:        3193
+   Calculation time:  0.973315927984377     
+     Until   1.00000000000000     
+   Real time:         748
+   CPU time:   2988.94976500000     
+   Total energy:  6.713988707589570E-003
+   Total enstrophy:  0.999320851759337     
+ STEP:        3194
+   Calculation time:  0.973592252088589     
+     Until   1.00000000000000     
+   Real time:         748
+   CPU time:   2989.87665800000     
+   Total energy:  6.713988706795633E-003
+   Total enstrophy:  0.999320667008705     
+ STEP:        3195
+   Calculation time:  0.973868586563642     
+     Until   1.00000000000000     
+   Real time:         749
+   CPU time:   2990.80306400000     
+   Total energy:  6.713988706001504E-003
+   Total enstrophy:  0.999320482200407     
+ STEP:        3196
+   Calculation time:  0.974144962354551     
+     Until   1.00000000000000     
+   Real time:         749
+   CPU time:   2991.73179900000     
+   Total energy:  6.713988705206818E-003
+   Total enstrophy:  0.999320297251716     
+ STEP:        3197
+   Calculation time:  0.974421408663110     
+     Until   1.00000000000000     
+   Real time:         749
+   CPU time:   2992.65991200000     
+   Total energy:  6.713988704411262E-003
+   Total enstrophy:  0.999320112084409     
+ STEP:        3198
+   Calculation time:  0.974697952655952     
+     Until   1.00000000000000     
+   Real time:         749
+   CPU time:   2993.58927200000     
+   Total energy:  6.713988703614469E-003
+   Total enstrophy:  0.999319926625508     
+ STEP:        3199
+   Calculation time:  0.974974619200614     
+     Until   1.00000000000000     
+   Real time:         750
+   CPU time:   2994.51685800000     
+   Total energy:  6.713988702816213E-003
+   Total enstrophy:  0.999319740807926     
+ STEP:        3200
+   Calculation time:  0.975251296768942     
+     Until   1.00000000000000     
+   Real time:         750
+   CPU time:   2995.44445500000     
+   Total energy:  6.713988702017748E-003
+   Total enstrophy:  0.999319554930451     
+ STEP:        3201
+   Calculation time:  0.975527973369745     
+     Until   1.00000000000000     
+   Real time:         750
+   CPU time:   2996.36991500000     
+   Total energy:  6.713988701219242E-003
+   Total enstrophy:  0.999319369025218     
+ STEP:        3202
+   Calculation time:  0.975804651383541     
+     Until   1.00000000000000     
+   Real time:         750
+   CPU time:   2997.29961000000     
+   Total energy:  6.713988700420602E-003
+   Total enstrophy:  0.999319183085830     
+ STEP:        3203
+   Calculation time:  0.976081333120261     
+     Until   1.00000000000000     
+   Real time:         750
+   CPU time:   2998.22782200000     
+   Total energy:  6.713988699621834E-003
+   Total enstrophy:  0.999318997106069     
+ STEP:        3204
+   Calculation time:  0.976358020938681     
+     Until   1.00000000000000     
+   Real time:         751
+   CPU time:   2999.15714500000     
+   Total energy:  6.713988698822948E-003
+   Total enstrophy:  0.999318811079600     
+ STEP:        3205
+   Calculation time:  0.976634717374246     
+     Until   1.00000000000000     
+   Real time:         751
+   CPU time:   3000.08397000000     
+   Total energy:  6.713988698023865E-003
+   Total enstrophy:  0.999318624999611     
+ STEP:        3206
+   Calculation time:  0.976911425272153     
+     Until   1.00000000000000     
+   Real time:         751
+   CPU time:   3001.01180600000     
+   Total energy:  6.713988697224593E-003
+   Total enstrophy:  0.999318438858459     
+ STEP:        3207
+   Calculation time:  0.977188147922326     
+     Until   1.00000000000000     
+   Real time:         751
+   CPU time:   3001.93854900000     
+   Total energy:  6.713988696425054E-003
+   Total enstrophy:  0.999318252647307     
+ STEP:        3208
+   Calculation time:  0.977464889192772     
+     Until   1.00000000000000     
+   Real time:         752
+   CPU time:   3002.86540800000     
+   Total energy:  6.713988695625243E-003
+   Total enstrophy:  0.999318066355766     
+ STEP:        3209
+   Calculation time:  0.977741653657798     
+     Until   1.00000000000000     
+   Real time:         752
+   CPU time:   3003.79413300000     
+   Total energy:  6.713988694825073E-003
+   Total enstrophy:  0.999317879971535     
+ STEP:        3210
+   Calculation time:  0.978018446717583     
+     Until   1.00000000000000     
+   Real time:         752
+   CPU time:   3004.72197500000     
+   Total energy:  6.713988694024518E-003
+   Total enstrophy:  0.999317693480090     
+ STEP:        3211
+   Calculation time:  0.978295274705784     
+     Until   1.00000000000000     
+   Real time:         752
+   CPU time:   3005.65273400000     
+   Total energy:  6.713988693223449E-003
+   Total enstrophy:  0.999317506864374     
+ STEP:        3212
+   Calculation time:  0.978572144982084     
+     Until   1.00000000000000     
+   Real time:         753
+   CPU time:   3006.57803100000     
+   Total energy:  6.713988692421823E-003
+   Total enstrophy:  0.999317320104546     
+ STEP:        3213
+   Calculation time:  0.978849066006899     
+     Until   1.00000000000000     
+   Real time:         753
+   CPU time:   3007.50561500000     
+   Total energy:  6.713988691619510E-003
+   Total enstrophy:  0.999317133177765     
+ STEP:        3214
+   Calculation time:  0.979126047395837     
+     Until   1.00000000000000     
+   Real time:         753
+   CPU time:   3008.43185600000     
+   Total energy:  6.713988690816472E-003
+   Total enstrophy:  0.999316946058029     
+ STEP:        3215
+   Calculation time:  0.979403099951968     
+     Until   1.00000000000000     
+   Real time:         753
+   CPU time:   3009.36048300000     
+   Total energy:  6.713988690012529E-003
+   Total enstrophy:  0.999316758716069     
+ STEP:        3216
+   Calculation time:  0.979680192484472     
+     Until   1.00000000000000     
+   Real time:         754
+   CPU time:   3010.28846300000     
+   Total energy:  6.713988689208021E-003
+   Total enstrophy:  0.999316571236017     
+ STEP:        3217
+   Calculation time:  0.979957285791936     
+     Until   1.00000000000000     
+   Real time:         754
+   CPU time:   3011.21668500000     
+   Total energy:  6.713988688403429E-003
+   Total enstrophy:  0.999316383723803     
+ *** Output budgets ***
+ STEP:        3218
+   Calculation time:  0.979999999999998     
+     Until   1.00000000000000     
+   Real time:         755
+   CPU time:   3012.71317000000     
+   Total energy:  6.713988688402981E-003
+   Total enstrophy:  0.999316383617545     
+ STEP:        3219
+   Calculation time:  0.980277096320722     
+     Until   1.00000000000000     
+   Real time:         755
+   CPU time:   3013.63932100000     
+   Total energy:  6.713988687598275E-003
+   Total enstrophy:  0.999316196062190     
+ STEP:        3220
+   Calculation time:  0.980554197456965     
+     Until   1.00000000000000     
+   Real time:         755
+   CPU time:   3014.56784300000     
+   Total energy:  6.713988686793388E-003
+   Total enstrophy:  0.999316008463897     
+ STEP:        3221
+   Calculation time:  0.980831305971938     
+     Until   1.00000000000000     
+   Real time:         755
+   CPU time:   3015.49619800000     
+   Total energy:  6.713988685988392E-003
+   Total enstrophy:  0.999315820815803     
+ STEP:        3222
+   Calculation time:  0.981108425078584     
+     Until   1.00000000000000     
+   Real time:         755
+   CPU time:   3016.42458000000     
+   Total energy:  6.713988685183193E-003
+   Total enstrophy:  0.999315633109280     
+ STEP:        3223
+   Calculation time:  0.981385558785553     
+     Until   1.00000000000000     
+   Real time:         756
+   CPU time:   3017.35250800000     
+   Total energy:  6.713988684377740E-003
+   Total enstrophy:  0.999315445333542     
+ STEP:        3224
+   Calculation time:  0.981662712031960     
+     Until   1.00000000000000     
+   Real time:         756
+   CPU time:   3018.27998400000     
+   Total energy:  6.713988683571999E-003
+   Total enstrophy:  0.999315257475269     
+ STEP:        3225
+   Calculation time:  0.981939890807336     
+     Until   1.00000000000000     
+   Real time:         756
+   CPU time:   3019.20624500000     
+   Total energy:  6.713988682765863E-003
+   Total enstrophy:  0.999315069518287     
+ STEP:        3226
+   Calculation time:  0.982217102253532     
+     Until   1.00000000000000     
+   Real time:         756
+   CPU time:   3020.13431600000     
+   Total energy:  6.713988681959305E-003
+   Total enstrophy:  0.999314881443270     
+ STEP:        3227
+   Calculation time:  0.982494354745730     
+     Until   1.00000000000000     
+   Real time:         757
+   CPU time:   3021.06345300000     
+   Total energy:  6.713988681152203E-003
+   Total enstrophy:  0.999314693227521     
+ STEP:        3228
+   Calculation time:  0.982771657950147     
+     Until   1.00000000000000     
+   Real time:         757
+   CPU time:   3021.99249500000     
+   Total energy:  6.713988680344378E-003
+   Total enstrophy:  0.999314504844794     
+ STEP:        3229
+   Calculation time:  0.983049022856573     
+     Until   1.00000000000000     
+   Real time:         757
+   CPU time:   3022.91976600000     
+   Total energy:  6.713988679535799E-003
+   Total enstrophy:  0.999314316265193     
+ STEP:        3230
+   Calculation time:  0.983326461784360     
+     Until   1.00000000000000     
+   Real time:         757
+   CPU time:   3023.84798100000     
+   Total energy:  6.713988678726273E-003
+   Total enstrophy:  0.999314127455128     
+ STEP:        3231
+   Calculation time:  0.983603988361087     
+     Until   1.00000000000000     
+   Real time:         758
+   CPU time:   3024.77620000000     
+   Total energy:  6.713988677915683E-003
+   Total enstrophy:  0.999313938377350     
+ STEP:        3232
+   Calculation time:  0.983881573202578     
+     Until   1.00000000000000     
+   Real time:         758
+   CPU time:   3025.70192700000     
+   Total energy:  6.713988677104310E-003
+   Total enstrophy:  0.999313749111611     
+ STEP:        3233
+   Calculation time:  0.984159154382396     
+     Until   1.00000000000000     
+   Real time:         758
+   CPU time:   3026.63066900000     
+   Total energy:  6.713988676292906E-003
+   Total enstrophy:  0.999313559826468     
+ STEP:        3234
+   Calculation time:  0.984436733566466     
+     Until   1.00000000000000     
+   Real time:         758
+   CPU time:   3027.55914500000     
+   Total energy:  6.713988675481470E-003
+   Total enstrophy:  0.999313370517424     
+ STEP:        3235
+   Calculation time:  0.984714313117906     
+     Until   1.00000000000000     
+   Real time:         758
+   CPU time:   3028.48754400000     
+   Total energy:  6.713988674669927E-003
+   Total enstrophy:  0.999313181178074     
+ STEP:        3236
+   Calculation time:  0.984991896262589     
+     Until   1.00000000000000     
+   Real time:         759
+   CPU time:   3029.41531100000     
+   Total energy:  6.713988673858296E-003
+   Total enstrophy:  0.999312991799651     
+ STEP:        3237
+   Calculation time:  0.985269487241409     
+     Until   1.00000000000000     
+   Real time:         759
+   CPU time:   3030.34250800000     
+   Total energy:  6.713988673046514E-003
+   Total enstrophy:  0.999312802370613     
+ STEP:        3238
+   Calculation time:  0.985547091445458     
+     Until   1.00000000000000     
+   Real time:         759
+   CPU time:   3031.26886200000     
+   Total energy:  6.713988672234495E-003
+   Total enstrophy:  0.999312612876271     
+ STEP:        3239
+   Calculation time:  0.985824715530671     
+     Until   1.00000000000000     
+   Real time:         759
+   CPU time:   3032.19613100000     
+   Total energy:  6.713988671422144E-003
+   Total enstrophy:  0.999312423298470     
+ STEP:        3240
+   Calculation time:  0.986102367508997     
+     Until   1.00000000000000     
+   Real time:         760
+   CPU time:   3033.12601800000     
+   Total energy:  6.713988670609424E-003
+   Total enstrophy:  0.999312233615325     
+ STEP:        3241
+   Calculation time:  0.986380056813656     
+     Until   1.00000000000000     
+   Real time:         760
+   CPU time:   3034.05395200000     
+   Total energy:  6.713988669796180E-003
+   Total enstrophy:  0.999312043801042     
+ STEP:        3242
+   Calculation time:  0.986657794336630     
+     Until   1.00000000000000     
+   Real time:         760
+   CPU time:   3034.98180000000     
+   Total energy:  6.713988668982321E-003
+   Total enstrophy:  0.999311853825800     
+ STEP:        3243
+   Calculation time:  0.986935592437113     
+     Until   1.00000000000000     
+   Real time:         760
+   CPU time:   3035.90907400000     
+   Total energy:  6.713988668167662E-003
+   Total enstrophy:  0.999311663655690     
+ STEP:        3244
+   Calculation time:  0.987213464920246     
+     Until   1.00000000000000     
+   Real time:         761
+   CPU time:   3036.83588300000     
+   Total energy:  6.713988667352070E-003
+   Total enstrophy:  0.999311473252776     
+ STEP:        3245
+   Calculation time:  0.987491426986063     
+     Until   1.00000000000000     
+   Real time:         761
+   CPU time:   3037.76268900000     
+   Total energy:  6.713988666535353E-003
+   Total enstrophy:  0.999311282575184     
+ STEP:        3246
+   Calculation time:  0.987769461485918     
+     Until   1.00000000000000     
+   Real time:         761
+   CPU time:   3038.69035200000     
+   Total energy:  6.713988665717700E-003
+   Total enstrophy:  0.999311091669604     
+ STEP:        3247
+   Calculation time:  0.988047497101356     
+     Until   1.00000000000000     
+   Real time:         761
+   CPU time:   3039.61899500000     
+   Total energy:  6.713988664899980E-003
+   Total enstrophy:  0.999310900731439     
+ STEP:        3248
+   Calculation time:  0.988325535166448     
+     Until   1.00000000000000     
+   Real time:         762
+   CPU time:   3040.54825600000     
+   Total energy:  6.713988664082112E-003
+   Total enstrophy:  0.999310709757019     
+ STEP:        3249
+   Calculation time:  0.988603577796622     
+     Until   1.00000000000000     
+   Real time:         762
+   CPU time:   3041.47566200000     
+   Total energy:  6.713988663264158E-003
+   Total enstrophy:  0.999310518740526     
+ STEP:        3250
+   Calculation time:  0.988881628065832     
+     Until   1.00000000000000     
+   Real time:         762
+   CPU time:   3042.40276700000     
+   Total energy:  6.713988662446040E-003
+   Total enstrophy:  0.999310327673513     
+ STEP:        3251
+   Calculation time:  0.989159690166368     
+     Until   1.00000000000000     
+   Real time:         762
+   CPU time:   3043.33031500000     
+   Total energy:  6.713988661627711E-003
+   Total enstrophy:  0.999310136544454     
+ STEP:        3252
+   Calculation time:  0.989437769547454     
+     Until   1.00000000000000     
+   Real time:         762
+   CPU time:   3044.26126400000     
+   Total energy:  6.713988660809107E-003
+   Total enstrophy:  0.999309945338367     
+ STEP:        3253
+   Calculation time:  0.989715873029311     
+     Until   1.00000000000000     
+   Real time:         763
+   CPU time:   3045.19063700000     
+   Total energy:  6.713988659990171E-003
+   Total enstrophy:  0.999309754036487     
+ STEP:        3254
+   Calculation time:  0.989994008889943     
+     Until   1.00000000000000     
+   Real time:         763
+   CPU time:   3046.11904600000     
+   Total energy:  6.713988659170725E-003
+   Total enstrophy:  0.999309562616025     
+ *** Output budgets ***
+ STEP:        3255
+   Calculation time:  0.989999999999998     
+     Until   1.00000000000000     
+   Real time:         763
+   CPU time:   3047.08795100000     
+   Total energy:  6.713988659170724E-003
+   Total enstrophy:  0.999309562615983     
+ STEP:        3256
+   Calculation time:  0.990278179060048     
+     Until   1.00000000000000     
+   Real time:         763
+   CPU time:   3048.01603800000     
+   Total energy:  6.713988658350734E-003
+   Total enstrophy:  0.999309371046428     
+ STEP:        3257
+   Calculation time:  0.990556410287711     
+     Until   1.00000000000000     
+   Real time:         764
+   CPU time:   3048.94457800000     
+   Total energy:  6.713988657530045E-003
+   Total enstrophy:  0.999309179303700     
+ STEP:        3258
+   Calculation time:  0.990834663711048     
+     Until   1.00000000000000     
+   Real time:         764
+   CPU time:   3049.87320400000     
+   Total energy:  6.713988656709008E-003
+   Total enstrophy:  0.999308987470196     
+ STEP:        3259
+   Calculation time:  0.991112941440918     
+     Until   1.00000000000000     
+   Real time:         764
+   CPU time:   3050.80166700000     
+   Total energy:  6.713988655887628E-003
+   Total enstrophy:  0.999308795540065     
+ STEP:        3260
+   Calculation time:  0.991391245168481     
+     Until   1.00000000000000     
+   Real time:         764
+   CPU time:   3051.72967200000     
+   Total energy:  6.713988655065867E-003
+   Total enstrophy:  0.999308603508618     
+ STEP:        3261
+   Calculation time:  0.991669576228018     
+     Until   1.00000000000000     
+   Real time:         765
+   CPU time:   3052.65654900000     
+   Total energy:  6.713988654243753E-003
+   Total enstrophy:  0.999308411372136     
+ STEP:        3262
+   Calculation time:  0.991947935673506     
+     Until   1.00000000000000     
+   Real time:         765
+   CPU time:   3053.58272400000     
+   Total energy:  6.713988653421204E-003
+   Total enstrophy:  0.999308219127680     
+ STEP:        3263
+   Calculation time:  0.992226324368049     
+     Until   1.00000000000000     
+   Real time:         765
+   CPU time:   3054.51059600000     
+   Total energy:  6.713988652598225E-003
+   Total enstrophy:  0.999308026772826     
+ STEP:        3264
+   Calculation time:  0.992504743084872     
+     Until   1.00000000000000     
+   Real time:         765
+   CPU time:   3055.43986100000     
+   Total energy:  6.713988651774814E-003
+   Total enstrophy:  0.999307834305406     
+ STEP:        3265
+   Calculation time:  0.992783192618188     
+     Until   1.00000000000000     
+   Real time:         765
+   CPU time:   3056.36851900000     
+   Total energy:  6.713988650950999E-003
+   Total enstrophy:  0.999307641723182     
+ STEP:        3266
+   Calculation time:  0.993061673901889     
+     Until   1.00000000000000     
+   Real time:         766
+   CPU time:   3057.29582300000     
+   Total energy:  6.713988650126720E-003
+   Total enstrophy:  0.999307449023541     
+ STEP:        3267
+   Calculation time:  0.993340167159090     
+     Until   1.00000000000000     
+   Real time:         766
+   CPU time:   3058.22309000000     
+   Total energy:  6.713988649302251E-003
+   Total enstrophy:  0.999307256261106     
+ STEP:        3268
+   Calculation time:  0.993618659190927     
+     Until   1.00000000000000     
+   Real time:         766
+   CPU time:   3059.15059500000     
+   Total energy:  6.713988648477681E-003
+   Total enstrophy:  0.999307063472378     
+ STEP:        3269
+   Calculation time:  0.993897156663745     
+     Until   1.00000000000000     
+   Real time:         766
+   CPU time:   3060.07736600000     
+   Total energy:  6.713988647652995E-003
+   Total enstrophy:  0.999306870638950     
+ STEP:        3270
+   Calculation time:  0.994175665583990     
+     Until   1.00000000000000     
+   Real time:         767
+   CPU time:   3061.00670400000     
+   Total energy:  6.713988646828118E-003
+   Total enstrophy:  0.999306677744236     
+ STEP:        3271
+   Calculation time:  0.994454191287745     
+     Until   1.00000000000000     
+   Real time:         767
+   CPU time:   3061.93536700000     
+   Total energy:  6.713988646002981E-003
+   Total enstrophy:  0.999306484773501     
+ STEP:        3272
+   Calculation time:  0.994732738447277     
+     Until   1.00000000000000     
+   Real time:         767
+   CPU time:   3062.86379700000     
+   Total energy:  6.713988645177499E-003
+   Total enstrophy:  0.999306291713822     
+ STEP:        3273
+   Calculation time:  0.995011311095285     
+     Until   1.00000000000000     
+   Real time:         767
+   CPU time:   3063.79331700000     
+   Total energy:  6.713988644351661E-003
+   Total enstrophy:  0.999306098554046     
+ STEP:        3274
+   Calculation time:  0.995289912667090     
+     Until   1.00000000000000     
+   Real time:         768
+   CPU time:   3064.72109800000     
+   Total energy:  6.713988643525419E-003
+   Total enstrophy:  0.999305905284652     
+ STEP:        3275
+   Calculation time:  0.995568546060537     
+     Until   1.00000000000000     
+   Real time:         768
+   CPU time:   3065.64749100000     
+   Total energy:  6.713988642698693E-003
+   Total enstrophy:  0.999305711897609     
+ STEP:        3276
+   Calculation time:  0.995847213712870     
+     Until   1.00000000000000     
+   Real time:         768
+   CPU time:   3066.57424300000     
+   Total energy:  6.713988641871502E-003
+   Total enstrophy:  0.999305518386149     
+ STEP:        3277
+   Calculation time:  0.996125917693404     
+     Until   1.00000000000000     
+   Real time:         768
+   CPU time:   3067.50438600000     
+   Total energy:  6.713988641043854E-003
+   Total enstrophy:  0.999305324744513     
+ STEP:        3278
+   Calculation time:  0.996404659810311     
+     Until   1.00000000000000     
+   Real time:         768
+   CPU time:   3068.43236900000     
+   Total energy:  6.713988640215646E-003
+   Total enstrophy:  0.999305130967663     
+ STEP:        3279
+   Calculation time:  0.996683441729453     
+     Until   1.00000000000000     
+   Real time:         769
+   CPU time:   3069.36029200000     
+   Total energy:  6.713988639386911E-003
+   Total enstrophy:  0.999304937050949     
+ STEP:        3280
+   Calculation time:  0.996962265102782     
+     Until   1.00000000000000     
+   Real time:         769
+   CPU time:   3070.28646300000     
+   Total energy:  6.713988638557621E-003
+   Total enstrophy:  0.999304742989757     
+ STEP:        3281
+   Calculation time:  0.997241131703524     
+     Until   1.00000000000000     
+   Real time:         769
+   CPU time:   3071.21414200000     
+   Total energy:  6.713988637727746E-003
+   Total enstrophy:  0.999304548779117     
+ STEP:        3282
+   Calculation time:  0.997520043565105     
+     Until   1.00000000000000     
+   Real time:         769
+   CPU time:   3072.14085900000     
+   Total energy:  6.713988636897242E-003
+   Total enstrophy:  0.999304354413333     
+ STEP:        3283
+   Calculation time:  0.997798974518597     
+     Until   1.00000000000000     
+   Real time:         770
+   CPU time:   3073.06951900000     
+   Total energy:  6.713988636066488E-003
+   Total enstrophy:  0.999304159965208     
+ STEP:        3284
+   Calculation time:  0.998077906079147     
+     Until   1.00000000000000     
+   Real time:         770
+   CPU time:   3073.99759800000     
+   Total energy:  6.713988635235630E-003
+   Total enstrophy:  0.999303965486235     
+ STEP:        3285
+   Calculation time:  0.998356844905661     
+     Until   1.00000000000000     
+   Real time:         770
+   CPU time:   3074.92622400000     
+   Total energy:  6.713988634404628E-003
+   Total enstrophy:  0.999303770957920     
+ STEP:        3286
+   Calculation time:  0.998635796906804     
+     Until   1.00000000000000     
+   Real time:         770
+   CPU time:   3075.85379900000     
+   Total energy:  6.713988633573387E-003
+   Total enstrophy:  0.999303576363846     
+ STEP:        3287
+   Calculation time:  0.998914767269557     
+     Until   1.00000000000000     
+   Real time:         771
+   CPU time:   3076.78529800000     
+   Total energy:  6.713988632741871E-003
+   Total enstrophy:  0.999303381689582     
+ STEP:        3288
+   Calculation time:  0.999193760507941     
+     Until   1.00000000000000     
+   Real time:         771
+   CPU time:   3077.71279800000     
+   Total energy:  6.713988631910016E-003
+   Total enstrophy:  0.999303186922558     
+ STEP:        3289
+   Calculation time:  0.999472780531179     
+     Until   1.00000000000000     
+   Real time:         771
+   CPU time:   3078.63969400000     
+   Total energy:  6.713988631077762E-003
+   Total enstrophy:  0.999302992051871     
+ STEP:        3290
+   Calculation time:  0.999751830730091     
+     Until   1.00000000000000     
+   Real time:         771
+   CPU time:   3079.57016000000     
+   Total energy:  6.713988630245077E-003
+   Total enstrophy:  0.999302797068039     
+ *** Output budgets ***
+ *** Output variables ***
+ STEP:        3291
+   Calculation time:  0.999999999999998     
+     Until   1.00000000000000     
+   Real time:         772
+   CPU time:   3080.60791700000     
+   Total energy:  6.713988629723860E-003
+   Total enstrophy:  0.999302674987169     
+ STEP:        3292
+   Calculation time:   1.00027911508553     
+     Until   1.00000000000000     
+   Real time:         772
+   CPU time:   3081.53777900000     
+   Total energy:  6.713988628890283E-003
+   Total enstrophy:  0.999302479766799     
+ Integration is completed with MPI error code:0000                              
+                      

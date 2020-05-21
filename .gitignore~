@@ -1,0 +1,18 @@
+# ignore binary files and results
+src/*.mod
+src/*.o
+build/*.mod
+build/*.o
+data/data*
+run/sub*
+run/sub*
+run/debug.sh.*
+run/debug_restart.sh.*
+run/.d*
+run/main.exe
+analysis/__pycache__
+analysis/data/*
+analysis/figure*
+analysis/*.so
+test_program
+trash
