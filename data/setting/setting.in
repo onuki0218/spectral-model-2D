@@ -3,13 +3,16 @@ NK = 256
 NL = 256
 /
 &nml_time
-time_end = 1.0d0
+time_end = 5.0d0
 ! CFL_factor = 1.83d0
 Del_time_max = 1.0d-3
 /
+&nml_initial
+alpha = -1.5d0
+/
 &nml_output
 time_write = 1.0d-2
-interval_write_variable = 10
+interval_write_variable = 5
 /
 &nml_budget
 interval_write_budget = 1

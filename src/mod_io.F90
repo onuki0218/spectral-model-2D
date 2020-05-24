@@ -53,6 +53,7 @@ contains
   
     namelist /nml_dimension/ NK, NL
     namelist /nml_time/ time_end, CFL_factor, Del_time_max
+    namelist /nml_initial/ alpha
     namelist /nml_output/ time_write, interval_write_variable
     namelist /nml_budget/ interval_write_budget
     namelist /nml_distortion/ flag_distortion, aspect_initial, tau

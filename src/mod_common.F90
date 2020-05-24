@@ -86,7 +86,7 @@ module mod_common
 
 ! parameter: initial condition
   real(8) :: total_energy = 1.0d0
-  real(8) :: alpha = - 0.5d0
+  real(8) :: alpha = - 1.0d0
   real(8) :: circulation = 0.0d0
 
 ! parameter: distortion

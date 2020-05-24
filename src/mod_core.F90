@@ -39,8 +39,6 @@ contains
     call print_main("Starting with setting file: "//file_setting)
     call fftw_init
 
-    if (my_rank == 0) call log_setting
-
     if (flag_restart) then 
       time_current = file_number_current * time_write
 
@@ -69,6 +67,7 @@ contains
 
     end if
 
+    if (my_rank == 0) call log_setting
     call log_time_energy
 
     return 
