@@ -1,11 +1,11 @@
 #!/bin/sh
 
 #------------- pjsub option ---------------
-#PJM -L rscgrp=debug-cache
+#PJM -L rscgrp=regular-cache
 #PJM -L node=1
 #PJM --mpi proc=5
 #PJM --omp thread=4
-#PJM -L elapse=0:30:00
+#PJM -L elapse=48:00:00
 #PJM -g gi55
 #PJM -j
 #PJM -s

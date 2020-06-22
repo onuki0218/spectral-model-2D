@@ -20,7 +20,7 @@ contains
     integer, allocatable:: seed(:)
     integer :: is, seedsize
 
-    real(8) :: sum_ens
+    real(8) :: sum_E
     real(8) :: aspect
     real(8) :: mu(1:NL-1, 1:NK-1)
 
@@ -41,9 +41,10 @@ contains
 
     Q(:,:) = random_gauss(:,:) * mu(:,:) ** alpha
     call dealias_truncate
+    call analysis_cal_energy(time=0.0d0)
+    sum_E = sum(E)
 
-    sum_ens = sum(Q(:,:)**2) / 2
-    Q(:,:) = Q(:,:) / sqrt(sum_ens)
+    Q(:,:) = Q(:,:) / sqrt(sum_E)
 
     call analysis_cal_energy(time=0.0d0)
     production(:,:) = 0.0d0
