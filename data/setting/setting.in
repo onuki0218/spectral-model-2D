@@ -1,9 +1,9 @@
 &nml_dimension
-NK = 256
-NL = 256
+NK = 128
+NL = 128
 /
 &nml_time
-time_end = 5.0d0
+time_end = 10.0d0
 ! CFL_factor = 1.83d0
 Del_time_max = 1.0d-3
 /
@@ -12,14 +12,14 @@ alpha = -1.5d0
 /
 &nml_output
 time_write = 1.0d-2
-interval_write_variable = 5
+interval_write_variable = 1
 /
 &nml_budget
 interval_write_budget = 1
 /
 &nml_distortion
 flag_distortion = .False.
-aspect_initial = 1.0
+aspect_initial = 2.0
 tau = 1.0
 /
 &nml_restart

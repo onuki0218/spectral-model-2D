@@ -58,8 +58,10 @@ module mod_log
 
   subroutine log_energy
     implicit none
+    real(8) :: E(1:NL-1, 1:NK-1)
     real(8) :: sum_E
 
+    call analysis_cal_energy(E, time=time_current)
     sum_E = sum(E(:,:))
     if (my_rank == 0) then
       write(unit_stdout,*) '  Total energy:', sum_E
