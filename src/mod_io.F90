@@ -4,7 +4,7 @@ module mod_io
   use misk
   implicit none
   
-    public
+  public
   
 ! directory
   character(60), save :: dir_name_result = '../data/data_default'
@@ -15,8 +15,8 @@ module mod_io
   character(30), save :: file_setting = 'setting'
   
 ! Energy budget file
-  character(30), save :: file_budget_out = 'budget.out'
-  character(30), save :: file_budget_csv = 'budget.csv'
+!  character(30), save :: file_budget_out = 'budget.out'
+!  character(30), save :: file_budget_csv = 'budget.csv'
   
 ! log file
   character(30), save :: file_number_out = 'file_number.out'
@@ -84,6 +84,7 @@ contains
   subroutine io_write_real_sum
     implicit none
 
+    real(8) :: E(1:NL-1, 1:NK-1)
     real(8) :: sum_E
     ! real(8) :: sum_nl_transfer_E
     real(8) :: sum_production
@@ -92,54 +93,54 @@ contains
     character(90) :: file_tmp
     integer :: access
 
-		sum_E = sum(E(:,:))
+    call analysis_cal_energy(E, time=time_current)
+    sum_E = sum(E(:,:))
 		sum_production = sum(production)
 
-    file_tmp = trim(dir_name_result)//trim(file_budget_csv)
+    write(file_tmp,'(A, A, i4.4, ".csv")')  &
+      &  trim(dir_name_result), 'budget', my_rank
 
     N_column = 3 !
 
-    if (my_rank == 0) then
+    if (file_number_current == 0 .or. access(file_tmp, " ") /= 0) then
 
-      if (file_number_current == 0 .or. access(file_tmp, " ") /= 0) then
+      open(unit=unit_budget_csv, file=file_tmp,  &
+        &  status='replace', form='formatted')
 
-        open(unit=unit_budget_csv, file=file_tmp,  &
-          &  status='replace', form='formatted')
+      write(unit_budget_csv, '(A)') 'T,E,PE'
 
-        write(unit_budget_csv, '(A)') 'T,E,PE'
+    else
 
-      else
-
-        open(unit=unit_budget_csv, file=file_tmp,  &
-          &  status='old', form='formatted', position='append')
-
-      end if
-
-      write(unit_budget_csv, '(e16.8, ",", e16.8, ",", e16.8)')  &
-        &  time_current,          &
-        &  sum_E,                 &
-!        &  sum_nl_transfer_E,    &
-        &  sum_production
-!        &  sum_dissipation_E
-
-      close(unit_budget_csv)
-
-      file_tmp = trim(dir_name_result)//trim(file_budget_out)
-
-      open(unit=unit_budget, file=file_tmp,  &
-        &  status='unknown', form='unformatted', access='direct',  &
-        &  recl=record_factor * N_column)
-
-      write(unit_budget, rec=file_number_current+1)  &
-        &  real(time_current),              &
-        &  real(sum_E),                     &
-!        &  real(sum_nl_transfer_E),         &
-        &  real(sum_production)
-!        &  real(sum_dissipation_E)
-
-      close(unit_budget)
+      open(unit=unit_budget_csv, file=file_tmp,  &
+        &  status='old', form='formatted', position='append')
 
     end if
+
+    write(unit_budget_csv, '(e16.8, ",", e16.8, ",", e16.8)')  &
+      &  time_current,          &
+      &  sum_E,                 &
+!      &  sum_nl_transfer_E,    &
+      &  sum_production
+!      &  sum_dissipation_E
+
+    close(unit_budget_csv)
+
+    write(file_tmp,'(A, A, i4.4, ".out")')  &
+      &  trim(dir_name_result), 'budget', my_rank
+
+    open(unit=unit_budget, file=file_tmp,  &
+      &  status='unknown', form='unformatted', access='direct',  &
+      &  recl=record_factor * N_column)
+
+    write(unit_budget, rec=file_number_current+1)  &
+      &  real(time_current),              &
+      &  real(sum_E),                     &
+!      &  real(sum_nl_transfer_E),         &
+      &  real(sum_production)
+!      &  real(sum_dissipation_E)
+
+    close(unit_budget)
+
     return
   end subroutine io_write_real_sum
 
@@ -149,8 +150,8 @@ contains
     implicit none
   
     call io_write_real(dir_name_result, 'Q')
-    call io_write_real(dir_name_result, 'E')
     call io_write_real(dir_name_result, 'PE')
+    call io_write_energy_ave
     
     return
   end subroutine io_write_all
@@ -161,7 +162,6 @@ contains
     implicit none
 
     call io_read_real(dir_name_input, 'Q')
-    call io_read_real(dir_name_input, 'E')
     call io_read_real(dir_name_input, 'PE')
 
     return
@@ -183,7 +183,6 @@ contains
 		allocate(R_data(1:NL_truncate, 1:NK_truncate))
 !
     if (var_name == 'Q') R_data(:,:) = real(Q(1:NL_truncate, 1:NK_truncate))
-    if (var_name == 'E') R_data(:,:) = real(E(1:NL_truncate, 1:NK_truncate))
 		if (var_name == 'PE')  &
 		  &  R_data(:,:) = real(Production(1:NL_truncate, 1:NK_truncate))
 
@@ -235,12 +234,48 @@ contains
 		R_all(:,:) = 0.0d0
 		R_all(1:NL_truncate, 1:NK_truncate) = R_data(:,:)
     if (var_name == 'Q') Q(:,:) = R_all(:,:)
-    if (var_name == 'E') E(:,:) = R_all(:,:)
 		if (var_name == 'PE') Production(:,:) = R_all(:,:)
 !
     deallocate(R_data)
 !
     return
   end subroutine io_read_real
+
+! *****************************************************************************
+
+  subroutine io_write_energy_ave()
+    implicit none
+    real(8) :: E(1:NL-1,1:NK-1)
+    real(8) :: E_ave(1:NL-1,1:NK-1)
+    real(4), allocatable :: R_data(:,:)  ! Single precision
+    integer :: N_record_length
+    integer,dimension(MPI_STATUS_SIZE) :: ista
+    character(50) :: file_tmp
+    integer :: i
+
+!
+    call analysis_cal_energy(E, time=time_current)
+    call analysis_average(E_ave, E, time=time_current)
+
+    if (my_rank == 0) then
+
+      N_record_length = NK_truncate * NL_truncate
+      allocate(R_data(1:NL_truncate, 1:NK_truncate))
+      R_data(:,:) = real(E_ave(1:NL_truncate, 1:NK_truncate))
+
+      write(file_tmp,'(A, A, i6.6, ".out")')  &
+        &  trim(dir_name_result), 'E', file_number_current
+      open(unit=unit_real, file=file_tmp, access='direct',  &
+        &  status='unknown', form='unformatted',  &
+        &  recl=record_factor * N_record_length)
+      write(unit_real, rec=1) R_data
+      close(unit_real)
+      
+      deallocate(R_data)
+
+    end if
+
+    return
+  end subroutine io_write_energy_ave
 
 end module mod_io

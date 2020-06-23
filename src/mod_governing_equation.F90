@@ -151,11 +151,9 @@ contains
     real(8), intent(in) :: time
 
     if (flag_distortion) then
-      aspect = (aspect_initial + 1.0d0 / aspect_initial) / 2  &
-        &  + (aspect_initial - 1.0d0 / aspect_initial) / 2  &
-        &  * cos(2 * PI * time / tau)
+      aspect = aspect_initial ** cos(2 * PI * time / tau)
     else
-      aspect = 1.0d0
+      aspect = aspect_initial
     end if
 
     if (present(aspect_sqrt)) then

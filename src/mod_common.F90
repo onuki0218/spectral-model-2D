@@ -100,7 +100,7 @@ module mod_common
   ! complex(8), allocatable :: mu(:,:)
 
 ! variables - energy
-  real(8), allocatable :: E(:,:)
+  ! real(8), allocatable :: E(:,:)
   real(8), allocatable :: production(:,:)
  
 contains
@@ -115,7 +115,7 @@ contains
      allocate(Q(1:NL-1, 1:NK-1))
      allocate(H(1:NL-1, 1:NK-1))
      ! allocate(mu(1:NL-1, 1:NK-1))
-     allocate(E(1:NL-1, 1:NK-1))
+     ! allocate(E(1:NL-1, 1:NK-1))
      allocate(Production(1:NL-1, 1:NK-1))
  
      allocate(K(1:NK-1))

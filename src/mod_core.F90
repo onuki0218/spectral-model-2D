@@ -44,9 +44,6 @@ contains
 
       call io_get_environment("dir_name_input", dir_name_input)
       call io_read_all
-      call io_write_all
-
-      if (my_rank == 0) call log_file_number
 
       write(message, '("Integration is restarting at file number ", i4.4)')  &
         &  file_number_current
@@ -58,15 +55,15 @@ contains
       time_current = 0.0d0
       call initial_condition_default
       
-      call io_write_all
-
-      if (my_rank == 0) call log_file_number
 
       write(message, '("Integration is starting from a defalut condition")')
       call print_main(message)
 
     end if
 
+    if (my_rank == 0) call log_file_number
+    call io_write_all
+    call io_write_real_sum
     if (my_rank == 0) call log_setting
     call log_time_energy
 
@@ -81,7 +78,6 @@ contains
     call eqn_Del_time(time_current)
 
     call runge_kutta_3
-    call analysis_cal_energy(time=0.0d0)
 
     return
   end subroutine step

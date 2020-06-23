@@ -17,10 +17,11 @@ contains
     implicit none
     real(8) :: random_homogeneous(1:2, 1:NL-1, 1:NK-1)
     real(8) :: random_gauss(1:NL-1, 1:NK-1)
-    integer, allocatable:: seed(:)
+    integer, allocatable :: seed(:)
     integer :: is, seedsize
 
-    real(8) :: sum_E
+    real(8) :: E(1:NL-1, 1:NK-1)
+    real(8) :: ave_E(1:NL-1, 1:NK-1)
     real(8) :: aspect
     real(8) :: mu(1:NL-1, 1:NK-1)
 
@@ -41,12 +42,11 @@ contains
 
     Q(:,:) = random_gauss(:,:) * mu(:,:) ** alpha
     call dealias_truncate
-    call analysis_cal_energy(time=0.0d0)
-    sum_E = sum(E)
 
-    Q(:,:) = Q(:,:) / sqrt(sum_E)
+    call analysis_cal_energy(E, time=0.0d0)
+    call analysis_average(ave_E, E, time=0.0d0)
+    Q(:,:) = Q(:,:) / sqrt(sum(ave_E))
 
-    call analysis_cal_energy(time=0.0d0)
     production(:,:) = 0.0d0
 
     return
