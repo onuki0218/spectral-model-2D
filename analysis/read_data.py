@@ -104,7 +104,7 @@ class ReadClass:
         file_open.close()
 
     def read_budget(self, ssh_flag=True):
-        shape = np.array([3, self.file_number_list[-1][-1] + 1])
+        shape = np.array([10, self.file_number_list[-1][-1] + 1])
         data_type = np.dtype('<f4')
         data = np.zeros(shape)
         for ip in range(self.N_process):
@@ -116,6 +116,31 @@ class ReadClass:
             print(str_ip)
         data = data / self.N_process
         return data.transpose()
+
+    def read_exp_E(self, beta, ssh_flag=True):
+        number_time = self.file_number_list[-1][-1] + 1
+        shape = np.array([10, number_time])
+        data_type = np.dtype('<f4')
+        data = np.zeros(number_time)
+        for ip in range(self.N_process):
+            str_ip = '{0:04d}'.format(ip)
+            file_name = 'budget' + str_ip + '.out'
+            data_tmp = self._read_data(file_name, data_type, shape,
+                                       ssh_flag=ssh_flag, remove_flag=False)
+            data = data + np.exp(-beta*(data_tmp[1, :] - data_tmp[1, 0])
+                                 * (self.NK_truncate-1) * (self.NL_truncate-1))
+            print(str_ip)
+        data = data / self.N_process
+        return data
+
+    def read_aspect_ratio(self, ssh_flag=True):
+        shape = np.array([self.file_number_list[-1][-1] + 1])
+        data_type = np.dtype('<f4')
+        data = np.zeros(shape)
+        file_name = 'aspect_ratio.out'
+        data = self._read_data(file_name, data_type, shape,
+                               ssh_flag=ssh_flag, remove_flag=False)
+        return data
 
     def read_real(self, it, ip, var_name, flag=True, ssh_flag=True):
         NL_in = self.NL_truncate
@@ -148,6 +173,21 @@ class ReadClass:
                                      ssh_flag=ssh_flag)
         return self.R_out
 
+    def read_Q2_ave(self, it, flag=True, ssh_flag=True):
+        NL_in = self.NL_truncate
+        NK_in = self.NL_truncate
+
+        # Prepare arrays
+        shape = np.array([NL_in, NK_in])
+        data_type = np.dtype('<f4')
+
+        str_it = '{0:06d}'.format(it)
+        print(str_it)
+        file_name = 'Q2' + str_it + '.out'
+        self.R_out = self._read_data(file_name, data_type, shape,
+                                     ssh_flag=ssh_flag)
+        return self.R_out
+
     def set_axis(self):
         K_axis = np.arange(1, self.NK_truncate+1) * self.Del_K
         L_axis = np.arange(1, self.NL_truncate+1) * self.Del_L
@@ -163,6 +203,25 @@ class ReadClass:
 
         return X, Y
 
+    def set_mu(self, aspect):
+        m_array = np.linspace(1, self.NK_truncate-1, self.NK_truncate-1)
+        n_array = np.linspace(1, self.NL_truncate-1, self.NL_truncate-1)
+        m_mesh, n_mesh = np.meshgrid(m_array, n_array)
+        mu = np.pi**2 * (m_mesh**2 / aspect + n_mesh**2 * aspect)
+        return mu
+
+    def set_free_energy(self, aspect, beta):
+        mu = self.set_mu(aspect=aspect)
+        free_energy = np.sum(np.log(beta + mu[:, :]) - np.log(mu[:, :]))  \
+            / (2 * beta)
+        return free_energy
+
+    def set_enstrophy_constant(self, aspect, beta):
+        mu = self.set_mu(aspect=aspect)
+        enstrophy_constant = np.sum(mu[:, :] / (beta + mu[:, :]))  \
+            / (2 * self.NK_truncate * self.NL_truncate)
+        return enstrophy_constant
+
     def set_dissipation_axis(self):
         Del_dis = (self.dissipation_max - self.dissipation_min) / \
             (self.N_dissipation - 2)
@@ -177,11 +236,19 @@ class ReadClass:
                       'U': 'Zonal velocity',
                       'V': 'Meridional velocity',
                       'E': 'Energy',
+                      'E-diag': 'Energy-diagonal',
+                      'E-lower': 'Energy-lower',
+                      'E-upper': 'Energy-upper',
+                      'Q2': 'Enstrophy',
+                      'Q2-diag': 'Enstrophy-diagonal',
+                      'Q2-lower': 'Enstrophy-lower',
+                      'Q2-upper': 'Enstrophy-upper',
                       'NE': 'Energy transfer rate',
                       'PE': 'Energy production rate',
                       'DE': 'Energy dissipation rate'}
         return dictionary[var]
 
     def data_PID(self, setting_name):
-        dictionary = {'setting': 'data/data_default/'}
+        dictionary = {'setting': 'data/data_default/',
+                      'setting_2': 'data/data_sub_2/'}
         return dictionary[setting_name]

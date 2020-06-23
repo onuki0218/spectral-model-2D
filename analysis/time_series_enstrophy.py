@@ -15,7 +15,7 @@ figure_dir = './figure/'
 
 setting_name = "setting"
 xlim = [0, 200]
-ylim = [0.003, 0.0035]
+ylim = [0.44, 0.48]
 
 reader = ReadClass()
 remote_data = reader.data_PID(setting_name)
@@ -32,16 +32,16 @@ df = df.set_index('T')
 for col in df.columns.tolist():
     df = df.rename(columns={col: reader.long_name(col)})
 
-df.plot(y=[reader.long_name('E'),
-           reader.long_name('E-diag'),
-           reader.long_name('E-lower'),
-           reader.long_name('E-upper')],
+df.plot(figsize=(9, 3),
+        y=[reader.long_name('Q2')]
+           # reader.long_name('Q2-diag'),
+           # reader.long_name('Q2-lower'),
+           # reader.long_name('Q2-upper')],
         # logy=True,
-        figsize=(9, 3),
         # xlim=xlim,
-        ylim=ylim
+        # ylim=ylim
 )
-plt.savefig(figure_dir + 'Energy' + setting_name + '.eps')
+plt.savefig(figure_dir + 'Enstrophy_total' + setting_name + '.eps')
 
 plt.show()
 plt.close()

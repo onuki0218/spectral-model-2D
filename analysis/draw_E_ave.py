@@ -24,7 +24,7 @@ K_axis, L_axis = reader.set_axis()
 
 c_level = 64
 
-for time in range(900, 930):
+for time in range(0, 201):
     it = time * reader.interval_write_variable
     str_it = '{0:04d}'.format(it)
     spec = reader.read_E_ave(it)
@@ -38,7 +38,7 @@ for time in range(900, 930):
     print(it, max_spec, min_spec, energy_all)
     # print(spec_XY_Z_log10)
     # spec_range = np.linspace(min_spec, max_spec, c_level)
-    spec_range = np.linspace(-9.0, 0.0, c_level)
+    spec_range = np.linspace(-6.0, 0.0, c_level)
 
     fig = plt.figure(figsize=[4, 3])
     fig.subplots_adjust(left=0.15, bottom=0.15, right=0.9,

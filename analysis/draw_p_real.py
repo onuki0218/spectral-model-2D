@@ -5,6 +5,7 @@ from matplotlib import rc
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import numpy as np
+from scipy import fftpack
 
 from read_data import ReadClass
 
@@ -19,50 +20,53 @@ remote_data = reader.data_PID(setting_name)
 reader.set_ssh(remote_data=remote_data)
 reader.read_setting(setting_name)
 reader.read_file_number(ssh_flag=True)
+aspect = reader.read_aspect_ratio(ssh_flag=True)
 
-K_axis, L_axis = reader.set_axis()
+X, Y = reader.set_XY_axis()
+K0, L0 = reader.set_axis()
+K, L = np.meshgrid(K0, L0)
 
 c_level = 64
 var_dict = {'E': 'Energy spectrum',
-            'P': 'Enstrophy spectrum',
+            'P': 'Stream function',
             'Q': 'Vorticity'}
-var = 'Q'
 
-for time in range(0, 100):
+var = 'P'
+# print(X, Y)
+
+for time in range(0, 5):
     it = time * reader.interval_write_variable
     str_it = '{0:04d}'.format(it)
-    spec = reader.read_real(it, 0, var)
-    if var == 'Q':
-        spec = spec**2 / 2
+    Q0 = reader.read_real(it, 0, 'Q')
+    mu = np.pi**2 * (K[:, :]**2 / aspect[time] + L[:, :]**2 * aspect[time])
 
-    energy_all = np.sum(spec)
-    spec[spec <= 0.0] = np.nan
-    spec_log10 = np.log10(spec / energy_all)
-    max_spec = np.nanmax(spec_log10)
-    min_spec = np.nanmin(spec_log10)
+    P = np.zeros((reader.NK, reader.NL))
+    P[:reader.NK_truncate, :reader.NK_truncate] = Q0[:, :] / mu[:, :]
+
+    P_real = fftpack.dstn(P, type=1, norm='ortho')
     #
-    print(it, max_spec, min_spec, energy_all)
+    print(it, aspect[time])
     # print(spec_XY_Z_log10)
     # spec_range = np.linspace(min_spec, max_spec, c_level)
-    spec_range = np.linspace(-9.0, 0.0, c_level)
+    # spec_range = np.linspace(-9.0, 0.0, c_level)
 
     fig = plt.figure(figsize=[4, 3])
     fig.subplots_adjust(left=0.15, bottom=0.15, right=0.9,
                         top=0.9, wspace=0.15, hspace=0.15)
     ax = fig.add_subplot(1, 1, 1)
-    spec_color = ax.contourf(K_axis, L_axis, spec_log10, spec_range,
-                             cmap=cm.nipy_spectral, extend="both")
+    spec_color = ax.contourf(X, Y, P_real)
     spec_color_bar = plt.colorbar(spec_color)
-    ax.patch.set_facecolor('black')
+    # ax.patch.set_facecolor('black')
     ax.set_title(var_dict[var] + ' at t=' + str_it + 'T')
     #
     # ax.set_xscale("log")
     # ax.set_yscale("log")
-    # ax.set_xlim([1, reader.NK_truncate])
-    # ax.set_ylim([1, reader.NL_truncate])
+    # ax.set_xlim([1, reader.NK])
+    # ax.set_ylim([1, reader.NL])
     #
-    ax.set_xlabel("Zonal wavenumber")
-    ax.set_ylabel("Meridional wavenumber")
-    fileeps = figure_dir + 'spec_' + var + str_it + '.eps'
+    ax.set_xlabel("X")
+    ax.set_ylabel("Y")
+    fileeps = figure_dir + var + str_it + '.eps'
     plt.savefig(fileeps)
+    # plt.show()
     plt.close()

@@ -11,7 +11,7 @@ from read_data import ReadClass
 rc('text', usetex=True)
 rc('font', family='serif')
 
-setting_name = "setting"
+setting_name = "setting_2"
 figure_dir = './figure/'
 
 reader = ReadClass()
@@ -23,17 +23,11 @@ reader.read_file_number(ssh_flag=True)
 K_axis, L_axis = reader.set_axis()
 
 c_level = 64
-var_dict = {'E': 'Energy spectrum',
-            'P': 'Enstrophy spectrum',
-            'Q': 'Vorticity'}
-var = 'Q'
 
-for time in range(0, 100):
+for time in range(0, 201):
     it = time * reader.interval_write_variable
     str_it = '{0:04d}'.format(it)
-    spec = reader.read_real(it, 0, var)
-    if var == 'Q':
-        spec = spec**2 / 2
+    spec = reader.read_E_ave(it)
 
     energy_all = np.sum(spec)
     spec[spec <= 0.0] = np.nan
@@ -44,7 +38,7 @@ for time in range(0, 100):
     print(it, max_spec, min_spec, energy_all)
     # print(spec_XY_Z_log10)
     # spec_range = np.linspace(min_spec, max_spec, c_level)
-    spec_range = np.linspace(-9.0, 0.0, c_level)
+    spec_range = np.linspace(-6.0, 0.0, c_level)
 
     fig = plt.figure(figsize=[4, 3])
     fig.subplots_adjust(left=0.15, bottom=0.15, right=0.9,
@@ -54,15 +48,15 @@ for time in range(0, 100):
                              cmap=cm.nipy_spectral, extend="both")
     spec_color_bar = plt.colorbar(spec_color)
     ax.patch.set_facecolor('black')
-    ax.set_title(var_dict[var] + ' at t=' + str_it + 'T')
+    ax.set_title('Averaged energy' + ' at t=' + str_it + 'T')
     #
-    # ax.set_xscale("log")
-    # ax.set_yscale("log")
-    # ax.set_xlim([1, reader.NK_truncate])
-    # ax.set_ylim([1, reader.NL_truncate])
+    ax.set_xscale("log")
+    ax.set_yscale("log")
+    ax.set_xlim([1, reader.NK_truncate])
+    ax.set_ylim([1, reader.NL_truncate])
     #
     ax.set_xlabel("Zonal wavenumber")
     ax.set_ylabel("Meridional wavenumber")
-    fileeps = figure_dir + 'spec_' + var + str_it + '.eps'
+    fileeps = figure_dir + 'spec_E' + str_it + '.eps'
     plt.savefig(fileeps)
     plt.close()

@@ -13,7 +13,7 @@ rc('text', usetex=True)
 rc('font', family='serif')
 figure_dir = './figure/'
 
-setting_name = "setting"
+setting_name = "setting_2"
 xlim = [0, 200]
 ylim = [0.003, 0.0035]
 
@@ -37,9 +37,9 @@ df.plot(y=[reader.long_name('E'),
            reader.long_name('E-lower'),
            reader.long_name('E-upper')],
         # logy=True,
-        figsize=(9, 3),
+        figsize=(9, 3)
         # xlim=xlim,
-        ylim=ylim
+        # ylim=ylim
 )
 plt.savefig(figure_dir + 'Energy' + setting_name + '.eps')
 

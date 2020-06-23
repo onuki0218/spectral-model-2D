@@ -12,9 +12,10 @@ rc('font', family='serif')
 
 figure_dir = './figure'
 
-m_max = 128  # Number of zonal modes
-n_max = 128  # Number of meridional modes
-a = 1.0  # Aspect ratio
+m_max = 41  # Number of zonal modes
+n_max = 41  # Number of meridional modes
+aspect = 4.0  # Aspect ratio
+a_sqrt = np.sqrt(aspect)
 r_re = 0.0  # Inverse of Rossby radius
 number_beta = 200
 
@@ -23,8 +24,9 @@ N = m_max * n_max
 m_array = np.linspace(1, m_max, m_max)
 n_array = np.linspace(1, n_max, n_max)
 m_mesh, n_mesh = np.meshgrid(m_array, n_array)
-lambda_array = (np.pi**2 * (m_mesh**2 / a**2 + n_mesh**2 * a**2) + r_re**2)
-# print(lambda_array)
+lambda_array = (np.pi**2 * (m_mesh**2 / aspect + n_mesh**2 * aspect) + r_re**2)
+# print(m_mesh)
+# print(n_mesh)
 
 epsilon_array = np.zeros(number_beta)
 beta_array = np.zeros(number_beta)

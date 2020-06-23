@@ -31,7 +31,7 @@ var = 'Q'
 
 # print(X, Y)
 
-for time in range(180, 1800):
+for time in range(0, 5):
     it = time * reader.interval_write_variable
     str_it = '{0:04d}'.format(it)
     Q0 = reader.read_real(it, 0, var)
