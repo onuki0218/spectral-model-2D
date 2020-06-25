@@ -14,7 +14,6 @@ rc('font', family='serif')
 figure_dir = './figure/'
 
 setting_name = "setting"
-beta = -19.56
 
 reader = ReadClass()
 remote_data = reader.data_PID(setting_name)
@@ -22,6 +21,7 @@ reader.set_ssh(remote_data=remote_data)
 reader.read_setting(setting_name)
 reader.read_file_number(ssh_flag=True)
 aspect = reader.read_aspect_ratio(ssh_flag=True)
+beta = reader.beta
 
 free_energy = np.zeros(aspect.size)
 for i in range(aspect.size):

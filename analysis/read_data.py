@@ -78,9 +78,13 @@ class ReadClass:
         self.time_write = tmp['time_write']
         self.interval_write_budget = tmp['interval_write_budget']
         self.interval_write_variable = tmp['interval_write_variable']
-        # self.viscosity = tmp['viscosity']
+        self.beta = tmp['beta']
+        self.aspect_max = tmp['aspect_max']
+        self.iflag_distortion = tmp['iflag_distortion']
+        self.energy_constant = tmp['energy_constant']
 
         self.NL_truncate = self.NK_truncate  #
+        self.N = (self.NL_truncate - 1) * (self.NK_truncate - 1)
 
         self.Del_K = np.pi / self.length_domain_X
         self.Del_L = np.pi / self.length_domain_Y
@@ -103,8 +107,10 @@ class ReadClass:
             line = file_open.readline()
         file_open.close()
 
-    def read_budget(self, ssh_flag=True):
-        shape = np.array([10, self.file_number_list[-1][-1] + 1])
+    def read_budget(self, number_time=0, ssh_flag=True):
+        if ssh_flag:
+            number_time = self.file_number_list[-1][-1] + 1
+        shape = np.array([12, number_time])
         data_type = np.dtype('<f4')
         data = np.zeros(shape)
         for ip in range(self.N_process):
@@ -115,11 +121,13 @@ class ReadClass:
             data = data + data_tmp
             print(str_ip)
         data = data / self.N_process
+        data[1:, :] = data[1:, :] * self.energy_constant
         return data.transpose()
 
-    def read_exp_E(self, beta, ssh_flag=True):
-        number_time = self.file_number_list[-1][-1] + 1
-        shape = np.array([10, number_time])
+    def read_exp_E(self, beta, number_time=0, ssh_flag=True):
+        if ssh_flag:
+            number_time = self.file_number_list[-1][-1] + 1
+        shape = np.array([12, number_time])
         data_type = np.dtype('<f4')
         data = np.zeros(number_time)
         for ip in range(self.N_process):
@@ -127,11 +135,34 @@ class ReadClass:
             file_name = 'budget' + str_ip + '.out'
             data_tmp = self._read_data(file_name, data_type, shape,
                                        ssh_flag=ssh_flag, remove_flag=False)
+            data_tmp = data_tmp * self.energy_constant
             data = data + np.exp(-beta*(data_tmp[1, :] - data_tmp[1, 0])
-                                 * (self.NK_truncate-1) * (self.NL_truncate-1))
+                                 * self.N)
             print(str_ip)
         data = data / self.N_process
         return data
+
+    def read_work(self, beta, number_time=0, ssh_flag=True):
+        if self.iflag_distortion == 2:
+            aspect = self.aspect_max
+        else:
+            aspect = 1.0
+        constant = self.set_enstrophy_constant(aspect=aspect,
+                                               beta=self.beta)
+        if ssh_flag:
+            number_time = self.file_number_list[-1][-1] + 1
+        shape = np.array([12, number_time])
+        data_type = np.dtype('<f4')
+        work = np.zeros([number_time, self.N_process])
+        for ip in range(self.N_process):
+            str_ip = '{0:04d}'.format(ip)
+            file_name = 'budget' + str_ip + '.out'
+            data_tmp = self._read_data(file_name, data_type, shape,
+                                       ssh_flag=ssh_flag, remove_flag=False)
+            data_tmp = data_tmp * constant
+            work[:, ip] = data_tmp[1, :] - data_tmp[1, 0]
+            print(str_ip)
+        return work
 
     def read_aspect_ratio(self, ssh_flag=True):
         shape = np.array([self.file_number_list[-1][-1] + 1])
@@ -143,8 +174,8 @@ class ReadClass:
         return data
 
     def read_real(self, it, ip, var_name, flag=True, ssh_flag=True):
-        NL_in = self.NL_truncate
-        NK_in = self.NL_truncate
+        NL_in = self.NL_truncate - 1
+        NK_in = self.NL_truncate - 1
 
         # Prepare arrays
         shape = np.array([NL_in, NK_in])
@@ -159,8 +190,8 @@ class ReadClass:
         return self.R_out
 
     def read_E_ave(self, it, flag=True, ssh_flag=True):
-        NL_in = self.NL_truncate
-        NK_in = self.NL_truncate
+        NL_in = self.NL_truncate - 1
+        NK_in = self.NL_truncate - 1
 
         # Prepare arrays
         shape = np.array([NL_in, NK_in])
@@ -174,8 +205,8 @@ class ReadClass:
         return self.R_out
 
     def read_Q2_ave(self, it, flag=True, ssh_flag=True):
-        NL_in = self.NL_truncate
-        NK_in = self.NL_truncate
+        NL_in = self.NL_truncate - 1
+        NK_in = self.NL_truncate - 1
 
         # Prepare arrays
         shape = np.array([NL_in, NK_in])
@@ -189,8 +220,8 @@ class ReadClass:
         return self.R_out
 
     def set_axis(self):
-        K_axis = np.arange(1, self.NK_truncate+1) * self.Del_K
-        L_axis = np.arange(1, self.NL_truncate+1) * self.Del_L
+        K_axis = np.arange(1, self.NK_truncate) * self.Del_K
+        L_axis = np.arange(1, self.NL_truncate) * self.Del_L
         return K_axis, L_axis
 
     def set_XY_axis(self):
@@ -216,10 +247,18 @@ class ReadClass:
             / (2 * beta)
         return free_energy
 
+    def set_RDT_work(self, aspect_0, aspect, beta):
+        mu0 = self.set_mu(aspect=aspect_0)
+        mu = self.set_mu(aspect=aspect)
+        variance = mu0[:, :] / (self.N * (beta + mu0[:, :]))
+        RDT_work = np.sum(variance[:, :]
+                          * (1 / mu[:, :] - 1 / mu0[:, :])) / 2
+        return RDT_work
+
     def set_enstrophy_constant(self, aspect, beta):
         mu = self.set_mu(aspect=aspect)
         enstrophy_constant = np.sum(mu[:, :] / (beta + mu[:, :]))  \
-            / (2 * self.NK_truncate * self.NL_truncate)
+            / (2 * (self.NK_truncate-1) * (self.NL_truncate-1))
         return enstrophy_constant
 
     def set_dissipation_axis(self):
@@ -236,10 +275,12 @@ class ReadClass:
                       'U': 'Zonal velocity',
                       'V': 'Meridional velocity',
                       'E': 'Energy',
+                      'E-first': 'Energy-first-mode',
                       'E-diag': 'Energy-diagonal',
                       'E-lower': 'Energy-lower',
                       'E-upper': 'Energy-upper',
                       'Q2': 'Enstrophy',
+                      'Q2-first': 'Enstrophy-first-mode',
                       'Q2-diag': 'Enstrophy-diagonal',
                       'Q2-lower': 'Enstrophy-lower',
                       'Q2-upper': 'Enstrophy-upper',
@@ -250,5 +291,6 @@ class ReadClass:
 
     def data_PID(self, setting_name):
         dictionary = {'setting': 'data/data_default/',
-                      'setting_2': 'data/data_sub_2/'}
+                      'setting_2': 'data/data_sub_2/',
+                      'setting_3': 'data/data_sub_3/'}
         return dictionary[setting_name]

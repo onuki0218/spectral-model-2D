@@ -34,39 +34,45 @@ var_dict = {'E': 'Energy spectrum',
 var = 'P'
 # print(X, Y)
 
-for time in range(0, 5):
+ip = 1
+str_ip = '{0:04d}'.format(ip)
+
+Q0 = reader.read_real(0, ip, 'Q')
+mu = np.pi**2 * (K[:, :]**2 / aspect[0] + L[:, :]**2 * aspect[0])
+P = np.zeros((reader.NK, reader.NL))
+P[:reader.NK_truncate-1, :reader.NK_truncate-1] = Q0[:, :] / mu[:, :]
+P_real = fftpack.dstn(P, type=1, norm='ortho')
+max_P = P_real.max()
+min_P = P_real.min()
+
+for time in range(0, 11):
     it = time * reader.interval_write_variable
     str_it = '{0:04d}'.format(it)
-    Q0 = reader.read_real(it, 0, 'Q')
-    mu = np.pi**2 * (K[:, :]**2 / aspect[time] + L[:, :]**2 * aspect[time])
+    Q0 = reader.read_real(it, ip, 'Q')
+    mu = np.pi**2 * (K[:, :]**2 / aspect[it] + L[:, :]**2 * aspect[it])
 
     P = np.zeros((reader.NK, reader.NL))
-    P[:reader.NK_truncate, :reader.NK_truncate] = Q0[:, :] / mu[:, :]
+    P[:reader.NK_truncate-1, :reader.NK_truncate-1] = Q0[:, :] / mu[:, :]
 
     P_real = fftpack.dstn(P, type=1, norm='ortho')
     #
-    print(it, aspect[time])
-    # print(spec_XY_Z_log10)
-    # spec_range = np.linspace(min_spec, max_spec, c_level)
-    # spec_range = np.linspace(-9.0, 0.0, c_level)
+    print(it, aspect[it])
+    c_range = np.linspace(min_P, max_P, c_level)
 
     fig = plt.figure(figsize=[4, 3])
     fig.subplots_adjust(left=0.15, bottom=0.15, right=0.9,
                         top=0.9, wspace=0.15, hspace=0.15)
     ax = fig.add_subplot(1, 1, 1)
-    spec_color = ax.contourf(X, Y, P_real)
-    spec_color_bar = plt.colorbar(spec_color)
-    # ax.patch.set_facecolor('black')
+    color = ax.contourf(X, Y, P_real, c_range, extend="both")
+    color_bar = plt.colorbar(color)
     ax.set_title(var_dict[var] + ' at t=' + str_it + 'T')
     #
-    # ax.set_xscale("log")
-    # ax.set_yscale("log")
     # ax.set_xlim([1, reader.NK])
     # ax.set_ylim([1, reader.NL])
     #
     ax.set_xlabel("X")
     ax.set_ylabel("Y")
-    fileeps = figure_dir + var + str_it + '.eps'
+    fileeps = figure_dir + var + str_ip + '_' + str_it + '.eps'
     plt.savefig(fileeps)
     # plt.show()
     plt.close()

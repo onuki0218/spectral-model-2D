@@ -24,21 +24,18 @@ K_axis, L_axis = reader.set_axis()
 
 c_level = 64
 
-for time in range(0, 11):
+spec0 = reader.read_Q2_ave(0)
+
+for time in range(1, 11):
     it = time * reader.interval_write_variable
     str_it = '{0:04d}'.format(it)
-    spec = reader.read_Q2_ave(it)
+    spec = reader.read_Q2_ave(it) - spec0
 
-    energy_all = np.sum(spec)
-    spec[spec <= 0.0] = np.nan
-    spec_log10 = np.log10(spec / energy_all)
-    max_spec = np.nanmax(spec_log10)
-    min_spec = np.nanmin(spec_log10)
+    sum_spec = np.sum(spec)
     #
-    print(it, max_spec, min_spec, energy_all)
-    # print(spec_XY_Z_log10)
+    print(it, sum_spec / np.sum(spec0))
+    # spec_range = np.linspace(np.nanmin(spec), np.nanmax(spec), c_level)
     spec_range = np.linspace(0, np.nanmax(spec), c_level)
-    # spec_range_log = np.linspace(-5.0, 0.0, c_level)
 
     fig = plt.figure(figsize=[4, 3])
     fig.subplots_adjust(left=0.15, bottom=0.15, right=0.9,
@@ -55,10 +52,10 @@ for time in range(0, 11):
     ax.set_xscale("log")
     ax.set_yscale("log")
     # ax.set_xlim([1, reader.NK_truncate])
-    # ax.set_ylim([1, reader.NL_truncate])
+     #ax.set_ylim([1, reader.NL_truncate])
     #
     ax.set_xlabel("Zonal wavenumber")
     ax.set_ylabel("Meridional wavenumber")
-    fileeps = figure_dir + 'spec_Q2_' + str_it + '.eps'
+    fileeps = figure_dir + 'spec_Q2_diff_' + str_it + '.eps'
     plt.savefig(fileeps)
     plt.close()

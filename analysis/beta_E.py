@@ -14,7 +14,7 @@ figure_dir = './figure'
 
 m_max = 41  # Number of zonal modes
 n_max = 41  # Number of meridional modes
-aspect = 4.0  # Aspect ratio
+aspect = 1.0  # Aspect ratio
 a_sqrt = np.sqrt(aspect)
 r_re = 0.0  # Inverse of Rossby radius
 number_beta = 200
